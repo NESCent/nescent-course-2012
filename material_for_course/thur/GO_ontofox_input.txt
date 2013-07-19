@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/GO_imports.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0035265 #organ growth (GO)
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0035265 #organ growth (GO)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties

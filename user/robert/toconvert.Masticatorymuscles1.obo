@@ -1,0 +1,61 @@
+format-version: 1.2
+date: 01:08:2012 11:49
+
+[Term]
+id: ROB:0
+name: pars reflexa subdivision of masseter
+relationship: OBO_REL:part_of ROB:1 ! superficial subdivision of masseter
+
+[Term]
+id: ROB:1
+name: superficial subdivision of masseter
+relationship: OBO_REL:part_of ROB:2 ! masseter
+
+[Term]
+id: ROB:10
+name: superficial temporalis
+relationship: OBO_REL:part_of ROB:9 ! temporalis
+
+[Term]
+id: ROB:2
+name: masseter
+is_a: ROB:3 ! muscle
+
+[Term]
+id: ROB:3
+name: muscle
+
+[Term]
+id: ROB:4
+name: anterior subdivision of masseter
+relationship: OBO_REL:part_of ROB:2 ! masseter
+
+[Term]
+id: ROB:5
+name: deep masseter subdivision of masseter
+relationship: OBO_REL:part_of ROB:2 ! masseter
+
+[Term]
+id: ROB:6
+name: posterior masseter
+relationship: OBO_REL:part_of ROB:2 ! masseter
+
+[Term]
+id: ROB:7
+name: zygomaticomandibularis
+relationship: OBO_REL:part_of ROB:2 ! masseter
+
+[Term]
+id: ROB:8
+name: deep temporalis
+relationship: OBO_REL:part_of ROB:9 ! temporalis
+
+[Term]
+id: ROB:9
+name: temporalis
+is_a: ROB:3 ! muscle
+
+[Typedef]
+id: OBO_REL:part_of
+name: OBO_REL:part_of
+

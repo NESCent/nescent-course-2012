@@ -1,0 +1,50 @@
+format-version: 1.2
+date: 01:08:2012 14:24
+
+[Term]
+id: MAO:0000000
+name: metazoan anatomy
+
+[Term]
+id: MAO:0000001
+name: biomineralized structure
+relationship: OBO_REL:part_of MAO:0000000 ! metazoan anatomy
+
+[Term]
+id: MAO:0000002
+name: shell
+is_a: MAO:0000007 ! calcium carbonate biomineralized structure
+
+[Term]
+id: MAO:0000003
+name: radula
+is_a: MAO:0000007 ! calcium carbonate biomineralized structure
+
+[Term]
+id: MAO:0000004
+name: shell gland
+relationship: develops_from MAO:0000002 ! shell
+
+[Term]
+id: MAO:0000005
+name: radula primordia
+relationship: develops_from MAO:0000003 ! radula
+
+[Term]
+id: MAO:0000006
+name: calcified biomineralized structure
+is_a: MAO:0000001 ! biomineralized structure
+
+[Term]
+id: MAO:0000007
+name: calcium carbonate biomineralized structure
+is_a: MAO:0000006 ! calcified biomineralized structure
+
+[Typedef]
+id: develops_from
+name: develops_from
+
+[Typedef]
+id: OBO_REL:part_of
+name: OBO_REL:part_of
+

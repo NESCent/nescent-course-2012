@@ -1,0 +1,222 @@
+format-version: 1.2
+date: 01:08:2012 08:05
+saved-by: John
+auto-generated-by: OBO-Edit 2.2
+default-namespace: default_namespace
+
+[Term]
+id: CS:0000000
+name: Anatomical System
+created_by: John
+creation_date: 2012-07-31T12:20:50Z
+
+[Term]
+id: CS:0000001
+name: Anatomical structure
+created_by: John
+creation_date: 2012-07-31T13:57:57Z
+
+[Term]
+id: CS:0000002
+name: compound organ
+is_a: CS:0000001 ! Anatomical structure
+created_by: John
+creation_date: 2012-07-31T13:58:44Z
+
+[Term]
+id: CS:0000003
+name: cavitated compound organ
+is_a: CS:0000002 ! compound organ
+created_by: John
+creation_date: 2012-07-31T13:59:12Z
+
+[Term]
+id: CS:0000004
+name: heart
+is_a: CS:0000003 ! cavitated compound organ
+relationship: develops_from CS:0000017 ! cardiac primordium
+relationship: part_of CS:0000005 ! circulatory system
+relationship: part_of CS:0000013 ! systemic circulatory system
+created_by: John
+creation_date: 2012-07-31T13:59:45Z
+
+[Term]
+id: CS:0000005
+name: circulatory system
+relationship: part_of CS:0000000 ! Anatomical System
+created_by: John
+creation_date: 2012-07-31T14:00:35Z
+
+[Term]
+id: CS:0000006
+name: blood vessel
+is_a: CS:0000008 ! cavitated simple organ
+relationship: develops_from CS:0000018 ! blood islands
+relationship: part_of CS:0000005 ! circulatory system
+created_by: John
+creation_date: 2012-07-31T17:17:07Z
+
+[Term]
+id: CS:0000007
+name: simple organ
+is_a: CS:0000001 ! Anatomical structure
+created_by: John
+creation_date: 2012-07-31T17:26:54Z
+
+[Term]
+id: CS:0000008
+name: cavitated simple organ
+is_a: CS:0000007 ! simple organ
+created_by: John
+creation_date: 2012-07-31T17:28:11Z
+
+[Term]
+id: CS:0000009
+name: artery
+is_a: CS:0000006 ! blood vessel
+created_by: John
+creation_date: 2012-07-31T17:32:14Z
+
+[Term]
+id: CS:0000010
+name: vein
+is_a: CS:0000006 ! blood vessel
+created_by: John
+creation_date: 2012-07-31T17:34:54Z
+
+[Term]
+id: CS:0000011
+name: capillary
+is_a: CS:0000006 ! blood vessel
+created_by: John
+creation_date: 2012-07-31T17:35:43Z
+
+[Term]
+id: CS:0000012
+name: Vena cava
+is_a: CS:0000010 ! vein
+relationship: connects_to CS:0000004 ! heart
+relationship: connects_to CS:0000024 ! right atrium
+relationship: part_of CS:0000013 ! systemic circulatory system
+created_by: John
+creation_date: 2012-07-31T17:38:56Z
+
+[Term]
+id: CS:0000013
+name: systemic circulatory system
+is_a: CS:0000005 ! circulatory system
+created_by: John
+creation_date: 2012-07-31T17:47:32Z
+
+[Term]
+id: CS:0000014
+name: Aorta
+is_a: CS:0000009 ! artery
+relationship: connects_to CS:0000004 ! heart
+relationship: connects_to CS:0000020 ! left ventricle
+relationship: part_of CS:0000013 ! systemic circulatory system
+created_by: John
+creation_date: 2012-07-31T18:35:08Z
+
+[Term]
+id: CS:0000015
+name: tissue
+is_a: CS:0000001 ! Anatomical structure
+created_by: John
+creation_date: 2012-07-31T18:46:22Z
+
+[Term]
+id: CS:0000016
+name: embryonic tissue
+is_a: CS:0000015 ! tissue
+created_by: John
+creation_date: 2012-07-31T18:48:02Z
+
+[Term]
+id: CS:0000017
+name: cardiac primordium
+is_a: CS:0000016 ! embryonic tissue
+created_by: John
+creation_date: 2012-07-31T18:49:25Z
+
+[Term]
+id: CS:0000018
+name: blood islands
+is_a: CS:0000016 ! embryonic tissue
+created_by: John
+creation_date: 2012-07-31T19:38:56Z
+
+[Term]
+id: CS:0000019
+name: heart chamber
+relationship: part_of CS:0000004 ! heart
+created_by: John
+creation_date: 2012-07-31T19:47:47Z
+
+[Term]
+id: CS:0000020
+name: left ventricle
+is_a: CS:0000021 ! ventricle
+created_by: John
+creation_date: 2012-07-31T19:51:18Z
+
+[Term]
+id: CS:0000021
+name: ventricle
+is_a: CS:0000019 ! heart chamber
+created_by: John
+creation_date: 2012-07-31T19:50:13Z
+
+[Term]
+id: CS:0000022
+name: right ventricle
+is_a: CS:0000021 ! ventricle
+created_by: John
+creation_date: 2012-07-31T19:52:41Z
+
+[Term]
+id: CS:0000023
+name: atrium
+is_a: CS:0000019 ! heart chamber
+created_by: John
+creation_date: 2012-07-31T19:53:52Z
+
+[Term]
+id: CS:0000024
+name: right atrium
+is_a: CS:0000023 ! atrium
+created_by: John
+creation_date: 2012-07-31T19:54:53Z
+
+[Term]
+id: CS:0000025
+name: left atrium
+is_a: CS:0000023 ! atrium
+created_by: John
+creation_date: 2012-07-31T19:55:33Z
+
+[Typedef]
+id: connects_to
+name: connects_to
+created_by: John
+creation_date: 2012-07-31T18:22:55Z
+
+[Typedef]
+id: develops_from
+name: develops_from
+created_by: John
+creation_date: 2012-07-31T12:25:52Z
+
+[Typedef]
+id: has_a
+name: has_a
+created_by: John
+creation_date: 2012-07-31T18:20:05Z
+
+[Typedef]
+id: part_of
+name: part_of
+is_transitive: true
+created_by: John
+creation_date: 2012-07-31T15:35:43Z
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1343844239215" name="http://purl.obolibrary.org/obo/owl-tutorial/ao-workshop.owl" uri="Alexprotoge1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343844239215" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="alexercise.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343844239215" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="chromosome-part.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343844239215" name="http://www.semanticweb.org/etienne.gnimpieba/ontologies/2012/7/untitled-ontology-7" uri="alexprotoge2tab.owl"/>
+    </group>
+</catalog>

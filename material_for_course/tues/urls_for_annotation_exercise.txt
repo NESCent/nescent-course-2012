@@ -1,0 +1,5 @@
+Phenex documentation
+http://phenoscape.org/wiki/Phenex
+
+HAO ontology for Phenex
+http://purl.obolibrary.org/obo/hao/course/hao-course.obo

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl" uri="imports/NCBItaxon_imports.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/dev/bfo.owl" uri="external/BFO2/bfo.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/caro.owl" uri="caro_2.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/caro/dev/ro_imports.owl" uri="imports/ro_imports.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/caro/external/NCBITaxon_import.owl" uri="imports/NCBItaxon_imports.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/caro/external/GO_import.owl" uri="imports/GO_imports.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/GO_imports.owl" uri="imports/GO_imports.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/caro/external/CL_import.owl" uri="imports/CL_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl" uri="imports/ontology-metadata.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ro/2012-01-14/ro.owl" uri="imports/ro.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="imports/ontology-metadata.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/core-relations.owl" uri="imports/BFO2/bfo2-relations.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/region-classes.owl" uri="imports/BFO2/bfo2-regions.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/core-classes.owl" uri="imports/BFO2/bfo2-classes.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/BFO2/bfo2.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/caro/dev/PATO_import.owl" uri="imports/PATO_import.owl"/>
+</catalog>

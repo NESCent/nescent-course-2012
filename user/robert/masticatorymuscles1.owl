@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/robert/Masticatorymuscles1.owl#"
+     xml:base="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/robert/Masticatorymuscles1.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:OBO_REL="http://purl.obolibrary.org/obo/OBO_REL#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/robert/Masticatorymuscles1.owl">
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01:08:2012 11:49</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBO_REL#_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBO_REL#_part_of">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_REL:part_of</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_REL:part_of</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pars reflexa subdivision of masseter</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:0</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superficial subdivision of masseter</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:1</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superficial temporalis</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:10</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masseter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ROB_3"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:2</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:3</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior subdivision of masseter</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:4</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deep masseter subdivision of masseter</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:5</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior masseter</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:6</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zygomaticomandibularis</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:7</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deep temporalis</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ROB_9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:8</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ROB_9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ROB_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ROB_3"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROB:9</oboInOwl:id>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.0-SNAPSHOT) http://owlapi.sourceforge.net -->
+

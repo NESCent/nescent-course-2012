@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/owl-tutorial/ao-workshop.owl#"
+     xml:base="http://purl.obolibrary.org/obo/owl-tutorial/ao-workshop.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/owl-tutorial/ao-workshop.owl">
+        <rdfs:comment>This is a tutorial about chromosomes parts.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+        <rdfs:label>cellular_component</rdfs:label>
+        <rdfs:comment>created during aow tutorial</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_02d599f4_59fc_4645_b29e_ce2561d72589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_02d599f4_59fc_4645_b29e_ce2561d72589">
+        <rdfs:label xml:lang="en">&apos;intracellular organelle&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_0b80005d_114b_421d_b9d3_6353f7e7fdc1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_059908bb_a199_4196_886d_78b032421152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_059908bb_a199_4196_886d_78b032421152">
+        <rdfs:label xml:lang="en">&apos;organelle part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_eb7bbad6_fbdf_49fd_9dc2_3c88d6af095b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_0b80005d_114b_421d_b9d3_6353f7e7fdc1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_0b80005d_114b_421d_b9d3_6353f7e7fdc1">
+        <rdfs:label xml:lang="en">&apos;intracellular part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_a74b538c_42fd_4f6d_bb9f_461cbd77fd14"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_1d0a6083_582c_4c07_9e36_ab8a39b75225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_1d0a6083_582c_4c07_9e36_ab8a39b75225">
+        <rdfs:label xml:lang="en">&apos;chromosomal part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_ffe799b4_a249_4cd5_9a6d_e991dc280db0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_202e32f1_bbc6_45d3_89ce_3e306ab4d6b9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_202e32f1_bbc6_45d3_89ce_3e306ab4d6b9">
+        <rdfs:label xml:lang="en">&apos;chromosomal part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_4ab49c0f_3ed9_4e96_b9da_124e4006eabd"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_22c68027_1ac7_4f71_9e65_56f62ae751bc -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_22c68027_1ac7_4f71_9e65_56f62ae751bc">
+        <rdfs:label xml:lang="en">&apos;chromosome, centromeric region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_1d0a6083_582c_4c07_9e36_ab8a39b75225"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_2b5c6f89_b6f8_4426_84f1_26ab67b6cfd8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_2b5c6f89_b6f8_4426_84f1_26ab67b6cfd8">
+        <rdfs:label xml:lang="en">chromocenter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_202e32f1_bbc6_45d3_89ce_3e306ab4d6b9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_44742cea_2b32_47ec_a67c_2bddafdf5fd4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_44742cea_2b32_47ec_a67c_2bddafdf5fd4">
+        <rdfs:label xml:lang="en">chromosome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_7761890b_f680_4515_a7b9_062d04161b9e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_4ab49c0f_3ed9_4e96_b9da_124e4006eabd -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_4ab49c0f_3ed9_4e96_b9da_124e4006eabd">
+        <rdfs:label xml:lang="en">&apos;intracellular organelle part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_059908bb_a199_4196_886d_78b032421152"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_4df9b174_f528_435b_bbd7_87c3b22b4ad4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_4df9b174_f528_435b_bbd7_87c3b22b4ad4">
+        <rdfs:label xml:lang="en">chromation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_1d0a6083_582c_4c07_9e36_ab8a39b75225"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_69062fa7_eb29_42b3_880e_7673d53606f4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_69062fa7_eb29_42b3_880e_7673d53606f4">
+        <rdfs:label xml:lang="en">&apos;chromosome, telomeric region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_1d0a6083_582c_4c07_9e36_ab8a39b75225"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_69add40e_2834_4e85_b62a_55629a123d7e -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_69add40e_2834_4e85_b62a_55629a123d7e">
+        <rdfs:label xml:lang="en">&apos;chromosome, telomeric region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_202e32f1_bbc6_45d3_89ce_3e306ab4d6b9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_6b50f93e_48d9_4fb0_aad9_98fbcf5def90 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_6b50f93e_48d9_4fb0_aad9_98fbcf5def90">
+        <rdfs:label xml:lang="en">intracellular</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_a74b538c_42fd_4f6d_bb9f_461cbd77fd14"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_773d3866_fe9b_49d1_9875_bee6f4880d46 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_773d3866_fe9b_49d1_9875_bee6f4880d46">
+        <rdfs:label xml:lang="en">chromosome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_833cf590_5284_45cf_9660_7d0b93b1c501"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_7761890b_f680_4515_a7b9_062d04161b9e -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_7761890b_f680_4515_a7b9_062d04161b9e">
+        <rdfs:label xml:lang="en">&apos;intracellylar organelle&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_eb7bbad6_fbdf_49fd_9dc2_3c88d6af095b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_7793d2c2_80db_4a4f_b3bd_1e946d03772a -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_7793d2c2_80db_4a4f_b3bd_1e946d03772a">
+        <rdfs:label xml:lang="en">chromocenter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_1d0a6083_582c_4c07_9e36_ab8a39b75225"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_7d9d7a16_0fae_4f4f_96a5_993ba6a8fedc -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_7d9d7a16_0fae_4f4f_96a5_993ba6a8fedc">
+        <rdfs:label xml:lang="en">chromosome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_02d599f4_59fc_4645_b29e_ce2561d72589"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_833cf590_5284_45cf_9660_7d0b93b1c501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_833cf590_5284_45cf_9660_7d0b93b1c501">
+        <rdfs:label xml:lang="en">&apos;non-membrane-bounded organelle&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_eb7bbad6_fbdf_49fd_9dc2_3c88d6af095b"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_a74b538c_42fd_4f6d_bb9f_461cbd77fd14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_a74b538c_42fd_4f6d_bb9f_461cbd77fd14">
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_abb831ed_3b32_4d4c_86a6_f5b6c711f246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_abb831ed_3b32_4d4c_86a6_f5b6c711f246">
+        <rdfs:label xml:lang="en">chromatin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_202e32f1_bbc6_45d3_89ce_3e306ab4d6b9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_b847eaff_bc85_4910_8e91_63fa68eb60e8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_b847eaff_bc85_4910_8e91_63fa68eb60e8">
+        <rdfs:label xml:lang="en">&apos;cell part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_c2f306b0_b64b_4bdf_963f_1373925814b0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_c2f306b0_b64b_4bdf_963f_1373925814b0">
+        <rdfs:label xml:lang="en">&apos;DNA replication termination region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_202e32f1_bbc6_45d3_89ce_3e306ab4d6b9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_caed08b3_b671_4872_a93e_93b69604cd5d -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_caed08b3_b671_4872_a93e_93b69604cd5d">
+        <rdfs:label xml:lang="en">intracellular</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_b847eaff_bc85_4910_8e91_63fa68eb60e8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_e1f14485_a7f0_4f13_a117_8e46a4210e2f -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_e1f14485_a7f0_4f13_a117_8e46a4210e2f">
+        <rdfs:label xml:lang="en">&apos;DNA replication termination region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_1d0a6083_582c_4c07_9e36_ab8a39b75225"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_e5d92ca2_ce91_4dfd_b974_114171e87fe3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_e5d92ca2_ce91_4dfd_b974_114171e87fe3">
+        <rdfs:label xml:lang="en">&apos;chromosome, centromeric region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_202e32f1_bbc6_45d3_89ce_3e306ab4d6b9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_eb7bbad6_fbdf_49fd_9dc2_3c88d6af095b -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_eb7bbad6_fbdf_49fd_9dc2_3c88d6af095b">
+        <rdfs:label xml:lang="en">organelle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_ffe799b4_a249_4cd5_9a6d_e991dc280db0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_ffe799b4_a249_4cd5_9a6d_e991dc280db0">
+        <rdfs:label xml:lang="en">&apos;intracellular organelle part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_0b80005d_114b_421d_b9d3_6353f7e7fdc1"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

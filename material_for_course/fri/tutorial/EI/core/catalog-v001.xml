@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/dev/ro-imports.owl" uri="../imports/ro-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon-import.owl" uri="../imports/uberon-import.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.bioontology.org/ontology/MSH/mesh-disease-import.owl" uri="../imports/mesh-disease-import.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/go-imports.owl" uri="../imports/go-imports.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ero/dev/go-imports-app.owl" uri="../application-specific-files/go-imports-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/uberon-import-app.owl" uri="../application-specific-files/uberon-import-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/mesh-disease-import-app.owl" uri="../application-specific-files/mesh-disease-import-app.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="../imports/ontology-metadata.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/eagle-i-core-app.owl" uri="../application-specific-files/eagle-i-core-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/iao-imports-app.owl" uri="../application-specific-files/iao-imports-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/vivo-imports-app.owl" uri="../application-specific-files/vivo-imports-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/so-imports-app.owl" uri="../application-specific-files/swo-imports-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/ocre-imports-app.owl" uri="../application-specific-files/ocre-imports-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/obi-imports-app.owl" uri="../application-specific-files/obi-imports-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/ncbi-imports-app.owl" uri="../application-specific-files/ncbi-imports-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/external-byhand-app.owl" uri="../application-specific-files/external-byhand-app.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ei_organism.owl" uri="../imports/ei_organism.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/eagle-i-app-def.owl" uri="../application-specific-files/eagle-i-app-def.owl"/>
+<uri id="User Entered Import Resolution" name="http://eagle-i.org/ont/app/1.0/ero-app.owl" uri="../application-specific-files/ero-app.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ero/dev/mesh-disease-import.owl" uri="../imports/mesh-disease-import.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ero/dev/uberon-import.owl" uri="../imports/uberon-import.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/ero-metadata.owl" uri="../imports/ero-metadata.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="../imports/ontology-metadata.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ero/dev/iao-imports.owl" uri="../imports/iao-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/uberon-import.owl" uri="../imports/uberon-import.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/mesh-disease-import.owl" uri="../imports/mesh-disease-import.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/vivo-imports.owl" uri="../imports/vivo-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/swo-imports.owl" uri="../imports/swo-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/so-imports.owl" uri="../imports/so-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/ocre-imports.owl" uri="../imports/ocre-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/obi-imports.owl" uri="../imports/obi-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/ncbi-imports.owl" uri="../imports/ncbi-imports.owl"/>
+<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ero/dev/bro-imports.owl" uri="../imports/bro-imports.owl"/>
+<uri id="User Edited Redirect" name="http://purl.org/obo/owl/ro_bfo_bridge/1.1" uri="../external/ro_bfo_bridge11.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ero/dev/external-byhand.owl" uri="../imports/external-byhand.owl"/>
+<uri id="User Edited Redirect" name="http://www.obofoundry.org/ro/ro.owl" uri="../external/ro.owl"/>
+<uri id="User Edited Redirect" name="http://protege.stanford.edu/plugins/owl/protege" uri="../external/protege.owl"/>
+<uri id="User Edited Redirect" name="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl" uri="../external/protege-dc.owl"/>
+<uri id="User Edited Redirect" name="http://www.ifomis.org/bfo/1.1" uri="../external/bfo11.owl"/>
+<uri id="User Edited Redirect" name="http://www.ifomis.org/bfo/1.0" uri="../external/bfo.owl"/>
+<uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ero.owl" uri="ero.owl"/>
+</catalog>

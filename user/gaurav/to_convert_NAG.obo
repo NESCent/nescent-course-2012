@@ -1,0 +1,159 @@
+format-version: 1.2
+date: 01:08:2012 11:49
+
+[Term]
+id: NAG:0
+name: Chronological unit
+
+[Term]
+id: NAG:1
+name: Physical entity
+
+[Term]
+id: NAG:10
+name: Cenomanian
+relationship: preceeds NAG:9 ! Campanian
+
+[Term]
+id: NAG:11
+name: Albian
+relationship: OBO_REL:part_of NAG:4 ! Cretaceous
+relationship: preceeds NAG:10 ! Cenomanian
+
+[Term]
+id: NAG:12
+name: Aptian
+relationship: OBO_REL:part_of NAG:4 ! Cretaceous
+relationship: preceeds NAG:11 ! Albian
+
+[Term]
+id: NAG:13
+name: Eolian
+relationship: develops_from NAG:7 ! Terrestrial
+
+[Term]
+id: NAG:14
+name: Continental shelf
+relationship: develops_from NAG:5 ! Marine
+
+[Term]
+id: NAG:15
+name: Marginal marine
+relationship: develops_from NAG:6 ! Mixed
+
+[Term]
+id: NAG:16
+name: Fluvial
+relationship: develops_from NAG:7 ! Terrestrial
+
+[Term]
+id: NAG:17
+name: Hell Creek
+is_a: NAG:18 ! Formation
+relationship: formed_during NAG:8 ! Maastrichtian
+relationship: records NAG:16 ! Fluvial
+
+[Term]
+id: NAG:18
+name: Formation
+is_a: NAG:1 ! Physical entity
+
+[Term]
+id: NAG:19
+name: Judith River
+is_a: NAG:18 ! Formation
+relationship: formed_during NAG:9 ! Campanian
+relationship: records NAG:16 ! Fluvial
+
+[Term]
+id: NAG:2
+name: Period
+is_a: NAG:0 ! Chronological unit
+
+[Term]
+id: NAG:20
+name: Baharyia
+is_a: NAG:18 ! Formation
+relationship: formed_during NAG:10 ! Cenomanian
+relationship: records NAG:15 ! Marginal marine
+
+[Term]
+id: NAG:21
+name: Cedar Mountain
+is_a: NAG:18 ! Formation
+relationship: formed_during NAG:10 ! Cenomanian
+relationship: formed_during NAG:11 ! Albian
+relationship: records NAG:16 ! Fluvial
+
+[Term]
+id: NAG:22
+name: Echkar Formation
+is_a: NAG:18 ! Formation
+relationship: formed_during NAG:10 ! Cenomanian
+relationship: records NAG:16 ! Fluvial
+
+[Term]
+id: NAG:23
+name: Cloverly
+is_a: NAG:18 ! Formation
+relationship: formed_during NAG:10 ! Cenomanian
+relationship: formed_during NAG:11 ! Albian
+relationship: formed_during NAG:12 ! Aptian
+relationship: records NAG:16 ! Fluvial
+
+[Term]
+id: NAG:3
+name: Paleoenvironment
+is_a: NAG:1 ! Physical entity
+
+[Term]
+id: NAG:4
+name: Cretaceous
+is_a: NAG:2 ! Period
+
+[Term]
+id: NAG:5
+name: Marine
+is_a: NAG:3 ! Paleoenvironment
+
+[Term]
+id: NAG:6
+name: Mixed
+is_a: NAG:3 ! Paleoenvironment
+
+[Term]
+id: NAG:7
+name: Terrestrial
+is_a: NAG:3 ! Paleoenvironment
+
+[Term]
+id: NAG:8
+name: Maastrichtian
+relationship: OBO_REL:part_of NAG:4 ! Cretaceous
+
+[Term]
+id: NAG:9
+name: Campanian
+relationship: OBO_REL:part_of NAG:4 ! Cretaceous
+relationship: preceeds NAG:8 ! Maastrichtian
+
+[Typedef]
+id: develops_from
+name: develops_from
+
+[Typedef]
+id: formed_during
+name: formed_during
+
+[Typedef]
+id: OBO_REL:part_of
+name: OBO_REL:part_of
+
+[Typedef]
+id: preceeds
+name: preceeds
+
+[Typedef]
+id: records
+name: records
+

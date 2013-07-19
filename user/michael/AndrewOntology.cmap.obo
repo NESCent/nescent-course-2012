@@ -1,0 +1,73 @@
+format-version: 1.2
+date: 01:08:2012 11:31
+
+[Term]
+id: AND:0
+name: Insect
+
+[Term]
+id: AND:1
+name: Anatomical Structure
+relationship: OBO_REL:part_of AND:0 ! Insect
+
+[Term]
+id: AND:10
+name: Antenna
+
+[Term]
+id: AND:11
+name: Fore Wing
+is_a: AND:6 ! Wing
+
+[Term]
+id: AND:12
+name: Hind Wing
+is_a: AND:6 ! Wing
+
+[Term]
+id: AND:13
+name: Elytron
+is_a: AND:11 ! Fore Wing
+
+[Term]
+id: AND:2
+name: Head
+is_a: AND:1 ! Anatomical Structure
+
+[Term]
+id: AND:3
+name: Thorax
+is_a: AND:1 ! Anatomical Structure
+
+[Term]
+id: AND:4
+name: Abdomen
+is_a: AND:1 ! Anatomical Structure
+
+[Term]
+id: AND:5
+name: Rostrum
+relationship: OBO_REL:part_of AND:2 ! Head
+
+[Term]
+id: AND:6
+name: Wing
+
+[Term]
+id: AND:7
+name: Leg
+
+[Term]
+id: AND:8
+name: Anal Vein
+relationship: OBO_REL:part_of AND:6 ! Wing
+
+[Term]
+id: AND:9
+name: Tarsus
+relationship: OBO_REL:part_of AND:7 ! Leg
+
+[Typedef]
+id: OBO_REL:part_of
+name: OBO_REL:part_of
+

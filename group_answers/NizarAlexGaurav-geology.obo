@@ -1,0 +1,29 @@
+format-version: 1.2
+date: 31:07:2012 14:05
+saved-by: vaidyagi
+auto-generated-by: OBO-Edit 2.2
+
+[Term]
+id: GEOL:0000000
+name: Process
+created_by: vaidyagi
+creation_date: 2012-07-31T14:04:16Z
+
+[Term]
+id: GEOL:0000001
+name: Physical entity
+created_by: vaidyagi
+creation_date: 2012-07-31T14:04:30Z
+
+[Term]
+id: GEOL:0000002
+name: Chronological unit
+created_by: vaidyagi
+creation_date: 2012-07-31T14:01:30Z
+
+[Typedef]
+id: part_of
+name: part_of
+created_by: vaidyagi
+creation_date: 2012-07-31T13:59:14Z
+

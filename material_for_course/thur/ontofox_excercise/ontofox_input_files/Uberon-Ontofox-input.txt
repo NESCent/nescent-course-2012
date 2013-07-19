@@ -1,0 +1,18 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/anatomy_course/external/UBERON-imports.owl
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000468 #multi-cellular organism (UBERON)
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0000468 #multi-cellular organism (UBERON)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties

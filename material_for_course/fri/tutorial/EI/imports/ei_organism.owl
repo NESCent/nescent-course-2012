@@ -1,0 +1,3350 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ei_organism.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ei_organism.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:i="http://global.eagle-i.net/i/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ei_organism.owl">
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">${ero.ontology.version}</owl:versionInfo>    
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+<!-- http://global.eagle-i.net/i/Acheta_domesticus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Acheta_domesticus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6997"/>
+        <rdfs:label xml:lang="en">Acheta domesticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aconoidasida -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aconoidasida">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_422676"/>
+        <rdfs:label xml:lang="en">Aconoidasida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Acrobeloides_ellesmerensis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Acrobeloides_ellesmerensis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_345480"/>
+        <rdfs:label xml:lang="en">Acrobeloides ellesmerensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Actinobacteria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Actinobacteria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
+        <rdfs:label xml:lang="en">Actinobacteria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Actinomyces_gerencseriae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Actinomyces_gerencseriae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_52769"/>
+        <rdfs:label xml:lang="en">Actinomyces gerencseriae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Actinomyces_israelii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Actinomyces_israelii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1659"/>
+        <rdfs:label xml:lang="en">Actinomyces israelii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Actinomyces_naeslundii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Actinomyces_naeslundii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1655"/>
+        <rdfs:label xml:lang="en">Actinomyces naeslundii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Actinomyces_oris -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Actinomyces_oris">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544580"/>
+        <rdfs:label xml:lang="en">Actinomyces oris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Adenoviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Adenoviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10508"/>
+        <rdfs:label xml:lang="en">Adenoviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aedes_aegypti -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aedes_aegypti">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7159"/>
+        <rdfs:label xml:lang="en">Aedes aegypti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aedes_albopictus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aedes_albopictus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7160"/>
+        <rdfs:label xml:lang="en">Aedes albopictus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aggregatibacter -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aggregatibacter">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_416916"/>
+        <rdfs:label xml:lang="en">Aggregatibacter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ambystoma_mexicanum -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ambystoma_mexicanum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8296"/>
+        <rdfs:label xml:lang="en">Ambystoma mexicanum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Amoebozoa -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Amoebozoa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_554915"/>
+        <rdfs:label xml:lang="en">Amoebozoa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Amphibia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Amphibia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8292"/>
+        <rdfs:label xml:lang="en">Amphibia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ananas_nanus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ananas_nanus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_326780"/>
+        <rdfs:label xml:lang="en">Ananas nanus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Anas -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Anas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8835"/>
+        <rdfs:label xml:lang="en">Anas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Anatidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Anatidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <rdfs:label xml:lang="en">Anatidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Annelida -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Annelida">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6340"/>
+        <rdfs:label xml:lang="en">Annelida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Anolis_sagrei -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Anolis_sagrei">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_38937"/>
+        <rdfs:label xml:lang="en">Anolis sagrei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Anopheles_gambiae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Anopheles_gambiae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7165"/>
+        <rdfs:label xml:lang="en">Anopheles gambiae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Anura -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Anura">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8342"/>
+        <rdfs:label xml:lang="en">Anura</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aotus_trivirgatus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aotus_trivirgatus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9505"/>
+        <rdfs:label xml:lang="en">Aotus trivirgatus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aplysia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aplysia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6499"/>
+        <rdfs:label xml:lang="en">Aplysia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Arabidopsis_thaliana -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Arabidopsis_thaliana">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3702"/>
+        <rdfs:label xml:lang="en">Arabidopsis thaliana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Archaea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Archaea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
+        <rdfs:label xml:lang="en">Archaea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Archaeognatha -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Archaeognatha">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29994"/>
+        <rdfs:label xml:lang="en">Archaeognatha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Arthropoda -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Arthropoda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6656"/>
+        <rdfs:label xml:lang="en">Arthropoda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ascaris -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ascaris">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6251"/>
+        <rdfs:label xml:lang="en">Ascaris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ascidiacea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ascidiacea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7713"/>
+        <rdfs:label xml:lang="en">Ascidiacea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aspergillus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aspergillus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5052"/>
+        <rdfs:label xml:lang="en">Aspergillus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aspergillus_flavus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aspergillus_flavus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5059"/>
+        <rdfs:label xml:lang="en">Aspergillus flavus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aspergillus_fumigatus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aspergillus_fumigatus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_746128"/>
+        <rdfs:label xml:lang="en">Aspergillus fumigatus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Astacoidea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Astacoidea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6724"/>
+        <rdfs:label xml:lang="en">Astacoidea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Astyanax_mexicanus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Astyanax_mexicanus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7994"/>
+        <rdfs:label xml:lang="en">Astyanax mexicanus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Aves -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Aves">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+        <rdfs:label xml:lang="en">Aves</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Avian_myeloblastosis_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Avian_myeloblastosis_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11866"/>
+        <rdfs:label xml:lang="en">Avian myeloblastosis virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bacillus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bacillus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1386"/>
+        <rdfs:label xml:lang="en">Bacillus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bacillus_anthracis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bacillus_anthracis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1392"/>
+        <rdfs:label xml:lang="en">Bacillus anthracis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bacillus_cereus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bacillus_cereus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1396"/>
+        <rdfs:label xml:lang="en">Bacillus cereus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bacillus_thuringiensis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bacillus_thuringiensis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1428"/>
+        <rdfs:label xml:lang="en">Bacillus thuringiensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bacteria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bacteria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:label xml:lang="en">Bacteria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bacteroidetes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bacteroidetes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
+        <rdfs:label xml:lang="en">Bacteroidetes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Baculoviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Baculoviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10442"/>
+        <rdfs:label xml:lang="en">Baculoviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Betta -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Betta">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_158455"/>
+        <rdfs:label xml:lang="en">Betta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Blattodea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Blattodea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85823"/>
+        <rdfs:label xml:lang="en">Blattodea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bombyx_mori -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bombyx_mori">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7091"/>
+        <rdfs:label xml:lang="en">Bombyx mori</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Bos_taurus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Bos_taurus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+        <rdfs:label xml:lang="en">Bos taurus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Botryotinia_fuckeliana -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Botryotinia_fuckeliana">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40559"/>
+        <rdfs:label xml:lang="en">Botryotinia fuckeliana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Brachyura -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Brachyura">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6752"/>
+        <rdfs:label xml:lang="en">Brachyura</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Burkholderia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Burkholderia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32008"/>
+        <rdfs:label xml:lang="en">Burkholderia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Burkholderia_cenocepacia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Burkholderia_cenocepacia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_95486"/>
+        <rdfs:label xml:lang="en">Burkholderia cenocepacia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Burkholderia_mallei -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Burkholderia_mallei">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13373"/>
+        <rdfs:label xml:lang="en">Burkholderia mallei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Burkholderia_pseudomallei -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Burkholderia_pseudomallei">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28450"/>
+        <rdfs:label xml:lang="en">Burkholderia pseudomallei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Burkholderia_thailandensis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Burkholderia_thailandensis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_57975"/>
+        <rdfs:label xml:lang="en">Burkholderia thailandensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Caenorhabditis_briggsae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Caenorhabditis_briggsae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6238"/>
+        <rdfs:label xml:lang="en">Caenorhabditis briggsae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Caenorhabditis_elegans -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Caenorhabditis_elegans">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6239"/>
+        <rdfs:label xml:lang="en">Caenorhabditis elegans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Callicebus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Callicebus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9522"/>
+        <rdfs:label xml:lang="en">Callicebus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Callinectes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Callinectes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6762"/>
+        <rdfs:label xml:lang="en">Callinectes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Callithrix -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Callithrix">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9481"/>
+        <rdfs:label xml:lang="en">Callithrix</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Campylobacter -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Campylobacter">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+        <rdfs:label xml:lang="en">Campylobacter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Campylobacter_rectus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Campylobacter_rectus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203"/>
+        <rdfs:label xml:lang="en">Campylobacter rectus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Candida_albicans -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Candida_albicans">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5476"/>
+        <rdfs:label xml:lang="en">Candida albicans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Canis_lupus_familiaris -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Canis_lupus_familiaris">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
+        <rdfs:label xml:lang="en">Canis lupus familiaris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Capitellidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Capitellidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51292"/>
+        <rdfs:label xml:lang="en">Capitellidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Capra_hircus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Capra_hircus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
+        <rdfs:label xml:lang="en">Capra hircus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Carassius_auratus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Carassius_auratus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7957"/>
+        <rdfs:label xml:lang="en">Carassius auratus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Carcharodon_carcharias -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Carcharodon_carcharias">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13397"/>
+        <rdfs:label xml:lang="en">Carcharodon carcharias</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Carnivora -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Carnivora">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33554"/>
+        <rdfs:label xml:lang="en">Carnivora</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Caudata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Caudata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8293"/>
+        <rdfs:label xml:lang="en">Caudata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cauliflower_mosaic_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cauliflower_mosaic_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10641"/>
+        <rdfs:label xml:lang="en">Cauliflower mosaic virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Caulimoviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Caulimoviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186534"/>
+        <rdfs:label xml:lang="en">Caulimoviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cavia_porcellus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cavia_porcellus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10141"/>
+        <rdfs:label xml:lang="en">Cavia porcellus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cebus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cebus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9513"/>
+        <rdfs:label xml:lang="en">Cebus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cebus_albifrons -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cebus_albifrons">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9514"/>
+        <rdfs:label xml:lang="en">Cebus albifrons</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cebus_apella -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cebus_apella">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9515"/>
+        <rdfs:label xml:lang="en">Cebus apella</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cebus_capucinus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cebus_capucinus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9516"/>
+        <rdfs:label xml:lang="en">Cebus capucinus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cephalopoda -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cephalopoda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6605"/>
+        <rdfs:label xml:lang="en">Cephalopoda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cercopithecidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cercopithecidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9527"/>
+        <rdfs:label xml:lang="en">Cercopithecidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chamaeleo -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chamaeleo">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51754"/>
+        <rdfs:label xml:lang="en">Chamaeleo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chiroptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chiroptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9397"/>
+        <rdfs:label xml:lang="en">Chiroptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chlamydomonas -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chlamydomonas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3052"/>
+        <rdfs:label xml:lang="en">Chlamydomonas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chlamydomonas_reinhardtii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chlamydomonas_reinhardtii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3055"/>
+        <rdfs:label xml:lang="en">Chlamydomonas reinhardtii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chlorocebus_aethiops -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chlorocebus_aethiops">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9534"/>
+        <rdfs:label xml:lang="en">Chlorocebus aethiops</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chlorocebus_pygerythrus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chlorocebus_pygerythrus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_60710"/>
+        <rdfs:label xml:lang="en">Chlorocebus pygerythrus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chlorophyta -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chlorophyta">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3041"/>
+        <rdfs:label xml:lang="en">Chlorophyta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chondrichthyes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chondrichthyes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7777"/>
+        <rdfs:label xml:lang="en">Chondrichthyes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Chordata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Chordata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7711"/>
+        <rdfs:label xml:lang="en">Chordata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ciliophora -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ciliophora">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5878"/>
+        <rdfs:label xml:lang="en">Ciliophora</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cladosporium -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cladosporium">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5498"/>
+        <rdfs:label xml:lang="en">Cladosporium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cnidaria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cnidaria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6073"/>
+        <rdfs:label xml:lang="en">Cnidaria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Coleoptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Coleoptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7041"/>
+        <rdfs:label xml:lang="en">Coleoptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Columbidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Columbidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8930"/>
+        <rdfs:label xml:lang="en">Columbidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Congiopodus_peruvianus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Congiopodus_peruvianus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_274724"/>
+        <rdfs:label xml:lang="en">Congiopodus peruvianus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Coronaviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Coronaviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+        <rdfs:label xml:lang="en">Coronaviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Coturnix_japonica -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Coturnix_japonica">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_93934"/>
+        <rdfs:label xml:lang="en">Coturnix japonica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cricetinae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cricetinae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10026"/>
+        <rdfs:label xml:lang="en">Cricetinae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cricetulus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cricetulus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10028"/>
+        <rdfs:label xml:lang="en">Cricetulus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cricetulus_griseus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cricetulus_griseus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10029"/>
+        <rdfs:label xml:lang="en">Cricetulus griseus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cricetulus_migratorius -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cricetulus_migratorius">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10032"/>
+        <rdfs:label xml:lang="en">Cricetulus migratorius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Crocodylidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Crocodylidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8493"/>
+        <rdfs:label xml:lang="en">Crocodylidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Crustacea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Crustacea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6657"/>
+        <rdfs:label xml:lang="en">Crustacea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cryptococcus_neoformans -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cryptococcus_neoformans">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5207"/>
+        <rdfs:label xml:lang="en">Cryptococcus neoformans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Culicidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Culicidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7157"/>
+        <rdfs:label xml:lang="en">Culicidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Cyanobacteria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Cyanobacteria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1117"/>
+        <rdfs:label xml:lang="en">Cyanobacteria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Dallia_pectoralis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Dallia_pectoralis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_75939"/>
+        <rdfs:label xml:lang="en">Dallia pectoralis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Danio_rerio -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Danio_rerio">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
+        <rdfs:label xml:lang="en">Danio rerio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Deinococcus-Thermus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Deinococcus-Thermus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <rdfs:label xml:lang="en">Deinococcus-Thermus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Deinococcus_radiodurans -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Deinococcus_radiodurans">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1299"/>
+        <rdfs:label xml:lang="en">Deinococcus radiodurans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Dengue_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Dengue_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12637"/>
+        <rdfs:label xml:lang="en">Dengue virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Dermaptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Dermaptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_27434"/>
+        <rdfs:label xml:lang="en">Dermaptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Diadema -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Diadema">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31174"/>
+        <rdfs:label xml:lang="en">Diadema</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Diadema_setosum -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Diadema_setosum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31175"/>
+        <rdfs:label xml:lang="en">Diadema setosum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Dictyostelium_discoideum -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Dictyostelium_discoideum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44689"/>
+        <rdfs:label xml:lang="en">Dictyostelium discoideum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Didelphidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Didelphidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9265"/>
+        <rdfs:label xml:lang="en">Didelphidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Diploptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Diploptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6983"/>
+        <rdfs:label xml:lang="en">Diploptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Diploptera_punctata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Diploptera_punctata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6984"/>
+        <rdfs:label xml:lang="en">Diploptera punctata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Dipodidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Dipodidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30648"/>
+        <rdfs:label xml:lang="en">Dipodidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Dipodomys -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Dipodomys">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10016"/>
+        <rdfs:label xml:lang="en">Dipodomys</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Diprotodontia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Diprotodontia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_38609"/>
+        <rdfs:label xml:lang="en">Diprotodontia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Diptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Diptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7147"/>
+        <rdfs:label xml:lang="en">Diptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Discopyge_ommata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Discopyge_ommata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7785"/>
+        <rdfs:label xml:lang="en">Discopyge ommata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Drosophila -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Drosophila">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
+        <rdfs:label xml:lang="en">Drosophila</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Drosophila_melanogaster -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Drosophila_melanogaster">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7227"/>
+        <rdfs:label xml:lang="en">Drosophila melanogaster</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Echinodermata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Echinodermata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7586"/>
+        <rdfs:label xml:lang="en">Echinodermata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Echinometra_lucunter -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Echinometra_lucunter">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_105361"/>
+        <rdfs:label xml:lang="en">Echinometra lucunter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ehrlichia_chaffeensis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ehrlichia_chaffeensis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_945"/>
+        <rdfs:label xml:lang="en">Ehrlichia chaffeensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Eikenella_corrodens -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Eikenella_corrodens">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_539"/>
+        <rdfs:label xml:lang="en">Eikenella corrodens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Elasmobranchii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Elasmobranchii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7778"/>
+        <rdfs:label xml:lang="en">Elasmobranchii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Electrophorus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Electrophorus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8004"/>
+        <rdfs:label xml:lang="en">Electrophorus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Electrophorus_electricus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Electrophorus_electricus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8005"/>
+        <rdfs:label xml:lang="en">Electrophorus electricus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Eleutherodactylus_coqui -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Eleutherodactylus_coqui">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_57060"/>
+        <rdfs:label xml:lang="en">Eleutherodactylus coqui</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Embioptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Embioptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50657"/>
+        <rdfs:label xml:lang="en">Embioptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Emericella_nidulans -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Emericella_nidulans">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_162425"/>
+        <rdfs:label xml:lang="en">Emericella nidulans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Epalzeorhynchos_kalopterus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Epalzeorhynchos_kalopterus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_699555"/>
+        <rdfs:label xml:lang="en">Epalzeorhynchos kalopterus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ephemeroptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ephemeroptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30073"/>
+        <rdfs:label xml:lang="en">Ephemeroptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Equidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Equidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9788"/>
+        <rdfs:label xml:lang="en">Equidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Equus_asinus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Equus_asinus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9793"/>
+        <rdfs:label xml:lang="en">Equus asinus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Equus_caballus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Equus_caballus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9796"/>
+        <rdfs:label xml:lang="en">Equus caballus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Eremothecium_gossypii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Eremothecium_gossypii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33169"/>
+        <rdfs:label xml:lang="en">Eremothecium gossypii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Erythrina_crista-galli -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Erythrina_crista-galli">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_49817"/>
+        <rdfs:label xml:lang="en">Erythrina crista-galli</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Erythrocebus_patas -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Erythrocebus_patas">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9538"/>
+        <rdfs:label xml:lang="en">Erythrocebus patas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Escherichia_coli -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Escherichia_coli">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+        <rdfs:label xml:lang="en">Escherichia coli</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Euglenozoa -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Euglenozoa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33682"/>
+        <rdfs:label xml:lang="en">Euglenozoa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Euplotes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Euplotes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5935"/>
+        <rdfs:label xml:lang="en">Euplotes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Euplotes_aediculatus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Euplotes_aediculatus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5940"/>
+        <rdfs:label xml:lang="en">Euplotes aediculatus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Fasciola_hepatica -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Fasciola_hepatica">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6192"/>
+        <rdfs:label xml:lang="en">Fasciola hepatica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Felidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Felidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9681"/>
+        <rdfs:label xml:lang="en">Felidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Felis_catus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Felis_catus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9685"/>
+        <rdfs:label xml:lang="en">Felis catus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Firmicutes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Firmicutes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
+        <rdfs:label xml:lang="en">Firmicutes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Flaviviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Flaviviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11050"/>
+        <rdfs:label xml:lang="en">Flaviviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Flavivirus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Flavivirus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11051"/>
+        <rdfs:label xml:lang="en">Flavivirus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Francisella_tularensis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Francisella_tularensis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_263"/>
+        <rdfs:label xml:lang="en">Francisella tularensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Fundulus_heteroclitus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Fundulus_heteroclitus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8078"/>
+        <rdfs:label xml:lang="en">Fundulus heteroclitus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Fungi -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Fungi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <rdfs:label xml:lang="en">Fungi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Gallus_gallus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Gallus_gallus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+        <rdfs:label xml:lang="en">Gallus gallus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Gasterosteus_aculeatus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Gasterosteus_aculeatus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_69293"/>
+        <rdfs:label xml:lang="en">Gasterosteus aculeatus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Gastropoda -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Gastropoda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6448"/>
+        <rdfs:label xml:lang="en">Gastropoda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Gerbillinae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Gerbillinae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10045"/>
+        <rdfs:label xml:lang="en">Gerbillinae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Glires -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Glires">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314147"/>
+        <rdfs:label xml:lang="en">Glires</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Gruberia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Gruberia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37351"/>
+        <rdfs:label xml:lang="en">Gruberia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Gryllidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Gryllidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6995"/>
+        <rdfs:label xml:lang="en">Gryllidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Haplochromis_burtoni -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Haplochromis_burtoni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8153"/>
+        <rdfs:label xml:lang="en">Haplochromis burtoni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Helix_aspersa -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Helix_aspersa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6535"/>
+        <rdfs:label xml:lang="en">Helix aspersa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hemiptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hemiptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7524"/>
+        <rdfs:label xml:lang="en">Hemiptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hepadnaviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hepadnaviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10404"/>
+        <rdfs:label xml:lang="en">Hepadnaviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hepatitis_A_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hepatitis_A_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12092"/>
+        <rdfs:label xml:lang="en">Hepatitis A virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hepatitis_B_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hepatitis_B_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
+        <rdfs:label xml:lang="en">Hepatitis B virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Herpesviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Herpesviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10292"/>
+        <rdfs:label xml:lang="en">Herpesviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Heteroptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Heteroptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33345"/>
+        <rdfs:label xml:lang="en">Heteroptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hirudinida -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hirudinida">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55824"/>
+        <rdfs:label xml:lang="en">Hirudinida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Holothuria_glaberrima -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Holothuria_glaberrima">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31192"/>
+        <rdfs:label xml:lang="en">Holothuria glaberrima</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Holothuroidea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Holothuroidea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7705"/>
+        <rdfs:label xml:lang="en">Holothuroidea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hominoidea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hominoidea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314295"/>
+        <rdfs:label xml:lang="en">Hominoidea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Homo_sapiens -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Homo_sapiens">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Human_adenovirus_5 -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Human_adenovirus_5">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28285"/>
+        <rdfs:label xml:lang="en">Human adenovirus 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Human_herpesvirus_2 -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Human_herpesvirus_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10310"/>
+        <rdfs:label xml:lang="en">Human herpesvirus 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Human_immunodeficiency_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Human_immunodeficiency_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12721"/>
+        <rdfs:label xml:lang="en">Human immunodeficiency virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hydra -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hydra">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6083"/>
+        <rdfs:label xml:lang="en">Hydra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hymenoptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hymenoptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7399"/>
+        <rdfs:label xml:lang="en">Hymenoptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hyperotreti -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hyperotreti">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_117565"/>
+        <rdfs:label xml:lang="en">Hyperotreti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Hypocrea_lixii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Hypocrea_lixii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5544"/>
+        <rdfs:label xml:lang="en">Hypocrea lixii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Influenza_A_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Influenza_A_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11320"/>
+        <rdfs:label xml:lang="en">Influenza A virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Insecta -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Insecta">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
+        <rdfs:label xml:lang="en">Insecta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Junonia_coenia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Junonia_coenia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39708"/>
+        <rdfs:label xml:lang="en">Junonia coenia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Leishmania -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Leishmania">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5658"/>
+        <rdfs:label xml:lang="en">Leishmania</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lentivirus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lentivirus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11646"/>
+        <rdfs:label xml:lang="en">Lentivirus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lepidobatrachus_laevis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lepidobatrachus_laevis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8376"/>
+        <rdfs:label xml:lang="en">Lepidobatrachus laevis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lepidoptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lepidoptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7088"/>
+        <rdfs:label xml:lang="en">Lepidoptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lepidosauria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lepidosauria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8504"/>
+        <rdfs:label xml:lang="en">Lepidosauria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lethenteron -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lethenteron">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_94988"/>
+        <rdfs:label xml:lang="en">Lethenteron</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lethenteron_camtschaticum -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lethenteron_camtschaticum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_980415"/>
+        <rdfs:label xml:lang="en">Lethenteron camtschaticum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Locusta_migratoria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Locusta_migratoria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7004"/>
+        <rdfs:label xml:lang="en">Locusta migratoria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lumbriculus_variegatus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lumbriculus_variegatus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_61662"/>
+        <rdfs:label xml:lang="en">Lumbriculus variegatus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Lumbricus_terrestris -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Lumbricus_terrestris">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6398"/>
+        <rdfs:label xml:lang="en">Lumbricus terrestris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Macaca -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Macaca">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9539"/>
+        <rdfs:label xml:lang="en">Macaca</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Macaca_arctoides -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Macaca_arctoides">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9540"/>
+        <rdfs:label xml:lang="en">Macaca arctoides</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Macaca_fascicularis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Macaca_fascicularis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9541"/>
+        <rdfs:label xml:lang="en">Macaca fascicularis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Macaca_fuscata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Macaca_fuscata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9542"/>
+        <rdfs:label xml:lang="en">Macaca fuscata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Macaca_mulatta -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Macaca_mulatta">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9544"/>
+        <rdfs:label xml:lang="en">Macaca mulatta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Macaca_nemestrina -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Macaca_nemestrina">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9545"/>
+        <rdfs:label xml:lang="en">Macaca nemestrina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Macropus_sp. -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Macropus_sp.">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9322"/>
+        <rdfs:label xml:lang="en">Macropus sp.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mammalia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mammalia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
+        <rdfs:label xml:lang="en">Mammalia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Manduca -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Manduca">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7129"/>
+        <rdfs:label xml:lang="en">Manduca</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Manduca_sexta -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Manduca_sexta">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7130"/>
+        <rdfs:label xml:lang="en">Manduca sexta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mantodea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mantodea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7504"/>
+        <rdfs:label xml:lang="en">Mantodea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Measles_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Measles_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11234"/>
+        <rdfs:label xml:lang="en">Measles virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Meleagris_gallopavo -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Meleagris_gallopavo">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9103"/>
+        <rdfs:label xml:lang="en">Meleagris gallopavo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mesocricetus_auratus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mesocricetus_auratus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+        <rdfs:label xml:lang="en">Mesocricetus auratus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mollusca -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mollusca">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6447"/>
+        <rdfs:label xml:lang="en">Mollusca</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Murina -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Murina">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59488"/>
+        <rdfs:label xml:lang="en">Murina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Murine_leukemia_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Murine_leukemia_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11786"/>
+        <rdfs:label xml:lang="en">Murine leukemia virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10088"/>
+        <rdfs:label xml:lang="en">Mus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mus_musculus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mus_musculus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:label xml:lang="en">Mus musculus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Musca_domestica -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Musca_domestica">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7370"/>
+        <rdfs:label xml:lang="en">Musca domestica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mustela_lutreola -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mustela_lutreola">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9666"/>
+        <rdfs:label xml:lang="en">Mustela lutreola</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mustela_putorius_furo -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mustela_putorius_furo">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9669"/>
+        <rdfs:label xml:lang="en">Mustela putorius furo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Mycoplasma_pneumoniae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Mycoplasma_pneumoniae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2104"/>
+        <rdfs:label xml:lang="en">Mycoplasma pneumoniae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Myxine_glutinosa -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Myxine_glutinosa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7769"/>
+        <rdfs:label xml:lang="en">Myxine glutinosa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Myxinidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Myxinidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7762"/>
+        <rdfs:label xml:lang="en">Myxinidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Naegleria_gruberi -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Naegleria_gruberi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5762"/>
+        <rdfs:label xml:lang="en">Naegleria gruberi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Neisseria_gonorrhoeae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Neisseria_gonorrhoeae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_485"/>
+        <rdfs:label xml:lang="en">Neisseria gonorrhoeae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Nematoda -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Nematoda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6231"/>
+        <rdfs:label xml:lang="en">Nematoda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Nephropidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Nephropidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6704"/>
+        <rdfs:label xml:lang="en">Nephropidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Neuroptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Neuroptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7516"/>
+        <rdfs:label xml:lang="en">Neuroptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Neurospora_crassa -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Neurospora_crassa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5141"/>
+        <rdfs:label xml:lang="en">Neurospora crassa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Notophthalmus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Notophthalmus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8315"/>
+        <rdfs:label xml:lang="en">Notophthalmus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Notophthalmus_viridescens -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Notophthalmus_viridescens">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8316"/>
+        <rdfs:label xml:lang="en">Notophthalmus viridescens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Numididae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Numididae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8990"/>
+        <rdfs:label xml:lang="en">Numididae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Orthomyxoviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Orthomyxoviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11308"/>
+        <rdfs:label xml:lang="en">Orthomyxoviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Orthoptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Orthoptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6993"/>
+        <rdfs:label xml:lang="en">Orthoptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Oryctolagus_cuniculus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Oryctolagus_cuniculus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+        <rdfs:label xml:lang="en">Oryctolagus cuniculus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Oryzias_latipes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Oryzias_latipes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8090"/>
+        <rdfs:label xml:lang="en">Oryzias latipes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ovibos_moschatus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ovibos_moschatus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37176"/>
+        <rdfs:label xml:lang="en">Ovibos moschatus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ovis_aries -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ovis_aries">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
+        <rdfs:label xml:lang="en">Ovis aries</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Oxytricha -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Oxytricha">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5943"/>
+        <rdfs:label xml:lang="en">Oxytricha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Pan_troglodytes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Pan_troglodytes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9598"/>
+        <rdfs:label xml:lang="en">Pan troglodytes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Panagrellus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Panagrellus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6232"/>
+        <rdfs:label xml:lang="en">Panagrellus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Panagrellus_redivivus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Panagrellus_redivivus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6233"/>
+        <rdfs:label xml:lang="en">Panagrellus redivivus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Papillomaviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Papillomaviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_151340"/>
+        <rdfs:label xml:lang="en">Papillomaviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Papio -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Papio">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9554"/>
+        <rdfs:label xml:lang="en">Papio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Papio_anubis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Papio_anubis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9555"/>
+        <rdfs:label xml:lang="en">Papio anubis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Parabasalia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Parabasalia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5719"/>
+        <rdfs:label xml:lang="en">Parabasalia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Paramyxoviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Paramyxoviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
+        <rdfs:label xml:lang="en">Paramyxoviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Parvimonas_micra -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Parvimonas_micra">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33033"/>
+        <rdfs:label xml:lang="en">Parvimonas micra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Penicillium -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Penicillium">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5073"/>
+        <rdfs:label xml:lang="en">Penicillium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Petromyzontidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Petromyzontidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7746"/>
+        <rdfs:label xml:lang="en">Petromyzontidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Phasianidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Phasianidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9005"/>
+        <rdfs:label xml:lang="en">Phasianidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Phasianidae_gen._sp. -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Phasianidae_gen._sp.">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9006"/>
+        <rdfs:label xml:lang="en">Phasianidae gen. sp.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Pheretima_sieboldi -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Pheretima_sieboldi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6402"/>
+        <rdfs:label xml:lang="en">Pheretima sieboldi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Picornaviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Picornaviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12058"/>
+        <rdfs:label xml:lang="en">Picornaviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Plasmodium_falciparum -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Plasmodium_falciparum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:label xml:lang="en">Plasmodium falciparum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Platyrrhini -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Platyrrhini">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9479"/>
+        <rdfs:label xml:lang="en">Platyrrhini</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Pleurodeles -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Pleurodeles">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8317"/>
+        <rdfs:label xml:lang="en">Pleurodeles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Pneumocystis_carinii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Pneumocystis_carinii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4754"/>
+        <rdfs:label xml:lang="en">Pneumocystis carinii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Polyomaviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Polyomaviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_151341"/>
+        <rdfs:label xml:lang="en">Polyomaviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Polyomavirus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Polyomavirus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10624"/>
+        <rdfs:label xml:lang="en">Polyomavirus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Porphyromonas_gingivalis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Porphyromonas_gingivalis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_837"/>
+        <rdfs:label xml:lang="en">Porphyromonas gingivalis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Poxviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Poxviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10240"/>
+        <rdfs:label xml:lang="en">Poxviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Prevotella -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Prevotella">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_838"/>
+        <rdfs:label xml:lang="en">Prevotella</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Prevotella_intermedia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Prevotella_intermedia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28131"/>
+        <rdfs:label xml:lang="en">Prevotella intermedia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Prevotella_nigrescens -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Prevotella_nigrescens">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28133"/>
+        <rdfs:label xml:lang="en">Prevotella nigrescens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Primates -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Primates">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
+        <rdfs:label xml:lang="en">Primates</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Prokaryota -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Prokaryota">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000581"/>
+        <rdfs:label xml:lang="en">Prokaryota</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Proteobacteria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Proteobacteria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <rdfs:label xml:lang="en">Proteobacteria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Pseudomonas_aeruginosa -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Pseudomonas_aeruginosa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_287"/>
+        <rdfs:label xml:lang="en">Pseudomonas aeruginosa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Psocoptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Psocoptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30259"/>
+        <rdfs:label xml:lang="en">Psocoptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rabies_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rabies_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11292"/>
+        <rdfs:label xml:lang="en">Rabies virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rana -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rana">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8399"/>
+        <rdfs:label xml:lang="en">Rana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rana_catesbeiana -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rana_catesbeiana">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8400"/>
+        <rdfs:label xml:lang="en">Rana catesbeiana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rana_pipiens -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rana_pipiens">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8404"/>
+        <rdfs:label xml:lang="en">Rana pipiens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rangifer_tarandus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rangifer_tarandus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9870"/>
+        <rdfs:label xml:lang="en">Rangifer tarandus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rattus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rattus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10114"/>
+        <rdfs:label xml:lang="en">Rattus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rattus_norvegicus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rattus_norvegicus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+        <rdfs:label xml:lang="en">Rattus norvegicus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rattus_rattus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rattus_rattus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10117"/>
+        <rdfs:label xml:lang="en">Rattus rattus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Reoviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Reoviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10880"/>
+        <rdfs:label xml:lang="en">Reoviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Retroviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Retroviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11632"/>
+        <rdfs:label xml:lang="en">Retroviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rhabditella_axei -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rhabditella_axei">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35559"/>
+        <rdfs:label xml:lang="en">Rhabditella axei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rhabdoviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rhabdoviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11270"/>
+        <rdfs:label xml:lang="en">Rhabdoviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rodentia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rodentia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9989"/>
+        <rdfs:label xml:lang="en">Rodentia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Rous_sarcoma_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Rous_sarcoma_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11886"/>
+        <rdfs:label xml:lang="en">Rous sarcoma virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ruminantia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ruminantia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9845"/>
+        <rdfs:label xml:lang="en">Ruminantia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Saccharomyces -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Saccharomyces">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4930"/>
+        <rdfs:label xml:lang="en">Saccharomyces</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Saccharomyces_cerevisiae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Saccharomyces_cerevisiae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4932"/>
+        <rdfs:label xml:lang="en">Saccharomyces cerevisiae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Saimiri -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Saimiri">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9520"/>
+        <rdfs:label xml:lang="en">Saimiri</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Saimiri_sciureus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Saimiri_sciureus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9521"/>
+        <rdfs:label xml:lang="en">Saimiri sciureus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Salamandridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Salamandridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8314"/>
+        <rdfs:label xml:lang="en">Salamandridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Salmonidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Salmonidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8015"/>
+        <rdfs:label xml:lang="en">Salmonidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Schistocerca -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Schistocerca">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7008"/>
+        <rdfs:label xml:lang="en">Schistocerca</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Schistocerca_americana -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Schistocerca_americana">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7009"/>
+        <rdfs:label xml:lang="en">Schistocerca americana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Schistosoma_mansoni -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Schistosoma_mansoni">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
+        <rdfs:label xml:lang="en">Schistosoma mansoni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Schizopyrenida -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Schizopyrenida">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41165"/>
+        <rdfs:label xml:lang="en">Schizopyrenida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Schizosaccharomyces_pombe -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Schizosaccharomyces_pombe">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
+        <rdfs:label xml:lang="en">Schizosaccharomyces pombe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Sciuridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Sciuridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55153"/>
+        <rdfs:label xml:lang="en">Sciuridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Sciurus_carolinensis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Sciurus_carolinensis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30640"/>
+        <rdfs:label xml:lang="en">Sciurus carolinensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Scyphozoa -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Scyphozoa">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6142"/>
+        <rdfs:label xml:lang="en">Scyphozoa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Sepiidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Sepiidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6608"/>
+        <rdfs:label xml:lang="en">Sepiidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Serinus_canaria -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Serinus_canaria">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9135"/>
+        <rdfs:label xml:lang="en">Serinus canaria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Sigmodon_hispidus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Sigmodon_hispidus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_42415"/>
+        <rdfs:label xml:lang="en">Sigmodon hispidus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Simian_virus_40 -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Simian_virus_40">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10633"/>
+        <rdfs:label xml:lang="en">Simian virus 40</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Simiiformes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Simiiformes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314293"/>
+        <rdfs:label xml:lang="en">Simiiformes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Siphonaptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Siphonaptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7509"/>
+        <rdfs:label xml:lang="en">Siphonaptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Spermophilus_parryii -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Spermophilus_parryii">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9999"/>
+        <rdfs:label xml:lang="en">Spermophilus parryii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Spodoptera_frugiperda -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Spodoptera_frugiperda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7108"/>
+        <rdfs:label xml:lang="en">Spodoptera frugiperda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Squalidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Squalidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30511"/>
+        <rdfs:label xml:lang="en">Squalidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Staphylococcus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Staphylococcus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1279"/>
+        <rdfs:label xml:lang="en">Staphylococcus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Staphylococcus_aureus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Staphylococcus_aureus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1280"/>
+        <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Staphylococcus_epidermidis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Staphylococcus_epidermidis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1282"/>
+        <rdfs:label xml:lang="en">Staphylococcus epidermidis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Strepsiptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Strepsiptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30261"/>
+        <rdfs:label xml:lang="en">Strepsiptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Streptococcaceae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Streptococcaceae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1300"/>
+        <rdfs:label xml:lang="en">Streptococcaceae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Streptococcus_equi -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Streptococcus_equi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1336"/>
+        <rdfs:label xml:lang="en">Streptococcus equi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Streptococcus_mitis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Streptococcus_mitis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28037"/>
+        <rdfs:label xml:lang="en">Streptococcus mitis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Streptococcus_pneumoniae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Streptococcus_pneumoniae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+        <rdfs:label xml:lang="en">Streptococcus pneumoniae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Streptococcus_pyogenes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Streptococcus_pyogenes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1314"/>
+        <rdfs:label xml:lang="en">Streptococcus pyogenes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Streptococcus_sanguinis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Streptococcus_sanguinis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1305"/>
+        <rdfs:label xml:lang="en">Streptococcus sanguinis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Strongylocentrotus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Strongylocentrotus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7664"/>
+        <rdfs:label xml:lang="en">Strongylocentrotus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Suid_herpesvirus_1 -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Suid_herpesvirus_1">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10345"/>
+        <rdfs:label xml:lang="en">Suid herpesvirus 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Suidae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Suidae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9821"/>
+        <rdfs:label xml:lang="en">Suidae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Sus_scrofa_domesticus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Sus_scrofa_domesticus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9825"/>
+        <rdfs:label xml:lang="en">Sus scrofa domesticus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Taeniopygia_guttata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Taeniopygia_guttata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59729"/>
+        <rdfs:label xml:lang="en">Taeniopygia guttata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Takifugu_rubripes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Takifugu_rubripes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_31033"/>
+        <rdfs:label xml:lang="en">Takifugu rubripes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tannerella_forsythia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tannerella_forsythia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28112"/>
+        <rdfs:label xml:lang="en">Tannerella forsythia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Teleostei -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Teleostei">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
+        <rdfs:label xml:lang="en">Teleostei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tenericutes -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tenericutes">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+        <rdfs:label xml:lang="en">Tenericutes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Testudines -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Testudines">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8459"/>
+        <rdfs:label xml:lang="en">Testudines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tetrahymena -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tetrahymena">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5890"/>
+        <rdfs:label xml:lang="en">Tetrahymena</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tetrahymena_thermophila -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tetrahymena_thermophila">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5911"/>
+        <rdfs:label xml:lang="en">Tetrahymena thermophila</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Thyonella_gemmata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Thyonella_gemmata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206685"/>
+        <rdfs:label xml:lang="en">Thyonella gemmata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Thysanura -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Thysanura">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30264"/>
+        <rdfs:label xml:lang="en">Thysanura</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tobacco_mosaic_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tobacco_mosaic_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12242"/>
+        <rdfs:label xml:lang="en">Tobacco mosaic virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Torpedo -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Torpedo">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7786"/>
+        <rdfs:label xml:lang="en">Torpedo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Torpedo_marmorata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Torpedo_marmorata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7788"/>
+        <rdfs:label xml:lang="en">Torpedo marmorata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Trematoda -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Trematoda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6178"/>
+        <rdfs:label xml:lang="en">Trematoda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Trichomonas_vaginalis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Trichomonas_vaginalis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5722"/>
+        <rdfs:label xml:lang="en">Trichomonas vaginalis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Trichoptera -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Trichoptera">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30263"/>
+        <rdfs:label xml:lang="en">Trichoptera</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tritonia_diomedea -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tritonia_diomedea">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70853"/>
+        <rdfs:label xml:lang="en">Tritonia diomedea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Triturus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Triturus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8322"/>
+        <rdfs:label xml:lang="en">Triturus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tunicata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tunicata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7712"/>
+        <rdfs:label xml:lang="en">Tunicata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Tupaia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Tupaia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9394"/>
+        <rdfs:label xml:lang="en">Tupaia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ulocladium -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ulocladium">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_119947"/>
+        <rdfs:label xml:lang="en">Ulocladium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Ursus_americanus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Ursus_americanus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9643"/>
+        <rdfs:label xml:lang="en">Ursus americanus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Vaccinia_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Vaccinia_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10245"/>
+        <rdfs:label xml:lang="en">Vaccinia virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Variola_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Variola_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
+        <rdfs:label xml:lang="en">Variola virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Vertebrata -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Vertebrata">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+        <rdfs:label xml:lang="en">Vertebrata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Vibrio_cholerae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Vibrio_cholerae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
+        <rdfs:label xml:lang="en">Vibrio cholerae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Virgaviridae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Virgaviridae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_675071"/>
+        <rdfs:label xml:lang="en">Virgaviridae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Viridiplantae -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Viridiplantae">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
+        <rdfs:label xml:lang="en">Viridiplantae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Viruses -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Viruses">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <rdfs:label xml:lang="en">Viruses</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Xenopus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Xenopus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8353"/>
+        <rdfs:label xml:lang="en">Xenopus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Xenopus_(Silurana)_tropicalis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Xenopus_(Silurana)_tropicalis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8364"/>
+        <rdfs:label xml:lang="en">Xenopus (Silurana) tropicalis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Xenopus_borealis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Xenopus_borealis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8354"/>
+        <rdfs:label xml:lang="en">Xenopus borealis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Xenopus_laevis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Xenopus_laevis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8355"/>
+        <rdfs:label xml:lang="en">Xenopus laevis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Yersinia -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Yersinia">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_629"/>
+        <rdfs:label xml:lang="en">Yersinia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Yersinia_pestis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Yersinia_pestis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_632"/>
+        <rdfs:label xml:lang="en">Yersinia pestis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/Yersinia_pseudotuberculosis -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/Yersinia_pseudotuberculosis">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_633"/>
+        <rdfs:label xml:lang="en">Yersinia pseudotuberculosis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/adeno-associated_viruses -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/adeno-associated_viruses">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000590"/>
+        <rdfs:label xml:lang="en">adeno-associated viruses</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/lobster -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/lobster">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6693"/>
+        <rdfs:label xml:lang="en">lobster</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/mutant_organism -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/mutant_organism">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001280"/>
+        <rdfs:label xml:lang="en">mutant organism</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/non_viral_organism -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/non_viral_organism">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000985"/>
+        <rdfs:label xml:lang="en">non viral organism</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_adeno-associated_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_adeno-associated_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001193"/>
+        <rdfs:label xml:lang="en">transgenic adeno-associated virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_adenovirus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_adenovirus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001191"/>
+        <rdfs:label xml:lang="en">transgenic adenovirus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_baculovirus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_baculovirus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001189"/>
+        <rdfs:label xml:lang="en">transgenic baculovirus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_lambda_phage -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_lambda_phage">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000296"/>
+        <rdfs:label xml:lang="en">transgenic lambda phage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_lentivirus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_lentivirus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001192"/>
+        <rdfs:label xml:lang="en">transgenic lentivirus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_organism -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_organism">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001054"/>
+        <rdfs:label xml:lang="en">transgenic organism</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_retrovirus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_retrovirus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001190"/>
+        <rdfs:label xml:lang="en">transgenic retrovirus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/transgenic_virus -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/transgenic_virus">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0001188"/>
+        <rdfs:label xml:lang="en">transgenic virus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://global.eagle-i.net/i/unclassified_phages -->
+
+    <owl:NamedIndividual rdf:about="http://global.eagle-i.net/i/unclassified_phages">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12333"/>
+        <rdfs:label xml:lang="en">unclassified phages</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1642) http://owlapi.sourceforge.net -->
+

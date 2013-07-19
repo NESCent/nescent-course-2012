@@ -1,0 +1,507 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.owl#"
+     xml:base="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:to_convert_NAG="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:OBO_REL="http://purl.obolibrary.org/obo/OBO_REL#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.owl">
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01:08:2012 11:49</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBO_REL#_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBO_REL#_part_of">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_REL:part_of</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_REL:part_of</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#develops_from -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#develops_from">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops_from</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops_from</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formed_during</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formed_during</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#preceeds -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#preceeds">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceeds</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceeds</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">records</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">records</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronological unit</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:0</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical entity</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:1</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cenomanian</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#preceeds"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:10</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_11">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albian</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#preceeds"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:11</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_12">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aptian</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#preceeds"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:12</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_13">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eolian</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:13</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_14">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continental shelf</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:14</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_15 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_15">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marginal marine</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:15</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_16">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluvial</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:16</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_17 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_17">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hell Creek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_18"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:17</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_18 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_18">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_1"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:18</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_19 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_19">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judith River</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_18"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:19</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Period</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_0"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:2</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_20 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_20">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baharyia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_18"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_15"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:20</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_21 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_21">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cedar Mountain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_18"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:21</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_22">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echkar Formation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_18"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:22</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_23 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloverly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_18"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_12"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#formed_during"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#records"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:23</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paleoenvironment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_1"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:3</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cretaceous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_2"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:4</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_3"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:5</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_3"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:6</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terrestrial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NAG_3"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:7</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maastrichtian</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:8</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NAG_9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NAG_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campanian</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.obo#preceeds"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NAG_8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAG:9</oboInOwl:id>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.0-SNAPSHOT) http://owlapi.sourceforge.net -->
+

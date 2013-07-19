@@ -1,0 +1,22 @@
+####### Immediate needs
+
+#phenex working on windows7
+#visual representation of osteology of TAO (to compare to my own cmap)
+#characters alignment (are my characters already referenced in phenoscape/TAO?)
+#integration of my data (drawings/pictures) in existing ontology (TAO?)
+#nexus to owl (datamatrix to ontology)
+#how to do post-composition to match your own characters and character states
+from several ontologies (TAO/PATO/BFO/phenoscape?) -- how to make query like
+"(seta and white) and (head)" and manchester notation for queries across
+several ontologies
+#how to "code" an instance (e.g. such taxon has white seta)?
+
+
+####### Long term goals:
+
+#formalization of character description (we all talk about the same entities/concepts)
+#workbench (annotation, pictures, character descriptions, to work in group)
+#public access of data (load ontology on lab website)
+
+#use of ontology for species diagnoses (possible?)
+

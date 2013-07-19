@@ -1,0 +1,30 @@
+
+== Spatial Exercise Tutorial ==
+
+Spatial properties are critical for spatial reasoning, which is a need that   anatomy ontologies are trying to address. Further, spatial characteristics are commonly used in text definitions but not yet so much in logical ones.  In this exercise, you will develop your own spatial relationships and then compare your results to what the larger community has come up with thus far. 
+
+Do this exercise in pairs- pair with someone you have not yet worked with.
+
+* Briefly review your understanding of the following ways to define properties (transitive, symmetric)
+
+Part 1
+
+* Your goal is to define a minimum of 6 properties (more if you want/need) that define the spatial relationships among anatomical classes.  Please don't "cheat" and look at spatial.obo (you'll be making a comparison to this ontology in Part 2).
+* Please use CMAP to view your mini-spatial ontolgy
+* Using a graphical tool or paper-pen + your favorite smart-phone app to digitize your figures draw figure(s) that illustrate your concepts.
+* Bonus: Include 2 dimensional or 3 dimensional classes
+* Hint:  come up with a list of commonly used words used to describe the anatomy you are interested in (e.g. anterior, proximal, sagittal) before you start - can you categorize these words
+* Bonus: !! Remember that you can relate properties to one-another (remember the has_author, has_first_author example that we discussed previously)
+
+Part 2
+
+* Find spatial.obo on the web, and open it in OBO edit- OR use a web portal to visualize this ontology.
+* Compare your results with Spatial.obo: 
+** For each of your classes provide the matching BSPO id you are convinced that you have found an exact match for you property
+** For those of your classes that you were not able cross reference to a BSPO ID describe why this is the case:
+*** What is the closest parent property to your class? (provide an ID)
+*** How would you distinguish your property from the parent property?
+
+Both parts:
+
+* Save your CMAP and associated answer files to the group_answer folder in SVN

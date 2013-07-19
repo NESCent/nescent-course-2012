@@ -1,0 +1,71 @@
+Anatomical Structure,522,154
+Axial skeleton,1941,156
+Weberian appartus,1977,239
+Postcranial skeleton,1771,243
+cranial skeleton,is_a,Anatomical Structure,512,261,516,208,522,154
+appendicular skeleton,1574,294
+Scaphium,1914,349
+Vetebrates,1748,366
+Branchial Basket,part_of,cranial skeleton,1110,380,922,333,512,261
+Neurocranium,part_of,cranial skeleton,730,384,619,357,512,261
+Oral Jaws,part_of,cranial skeleton,262,396,389,359,512,261
+Suspensorium,part_of,cranial skeleton,510,398,509,364,512,261
+Claustrum,1912,402
+Rib,1725,412
+Posttemporal,1548,436
+Hemal Spine,1718,446
+pharyngobranchial,part_of,Branchial Basket,1284,454,1271,398,1110,380
+Intercalarium,1876,457
+Frontal,part_of,Neurocranium,799,468,764,426,730,384
+Upper Jaws,part_of,Oral Jaws,192,470,227,433,262,396
+Endopterygoid,part_of,Suspensorium,432,472,471,435,510,398
+Lower Jaws,part_of,Oral Jaws,304,472,283,434,262,396
+Metapterygoid,connected_to,Endopterygoid,662,474,555,473,432,472
+Neural spine,1724,504
+Tripus,1866,516
+Supracleithrum,connected_to,Posttemporal,1604,524,1576,480,1548,436
+Epibranchial,connected_to,pharyngobranchial,1316,526,1303,484,1284,454
+Parietal,connected_to,Frontal,891,527,873,493,799,468
+Supraoccipital,connected_to,Parietal,1031,528,968,474,891,527
+Hyomandibula,connected_to,Preopercle,653,541,664,684,476,765
+Preopercle,connected_to,Opercle,476,765,572,765,666,765
+Hyomandibula,connected_to,Metapterygoid,653,541,657,507,662,474
+Quadrate,connected_to,Endopterygoid,429,549,430,510,432,472
+Quadrate,connected_to,Preopercle,429,549,435,652,476,765
+Dentary,connected_to,Dentary teeth,172,563,261,606,314,566
+Dentary,part_of,Lower Jaws,172,563,247,519,304,472
+Premaxila,part_of,Upper Jaws,66,569,134,515,192,470
+Branchiostegal rays,connected_to,Ceratobranchial,1493,577,1496,658,1378,626
+Ceratobranchial,connected_to,Epibranchial,1378,626,1362,565,1316,526
+Mesethmoid,connected_to,Frontal,803,588,801,528,799,468
+Scale,1795,593
+Cleithrum,connected_to,Supracleithrum,1614,596,1609,560,1604,524
+Sphenotic,949,598
+Symplectic,connected_to,Quadrate,532,627,517,581,429,549
+Symplectic,connected_to,Hyomandibula,532,627,610,580,653,541
+Symplectic,connected_to,Preopercle,532,627,511,693,476,765
+Epioccipital,connected_to,Supraoccipital,1151,645,1073,589,1031,528
+Pigmentation,1816,648
+Scapula,1614,654
+Maxilla,connected_to,Premaxila,159,666,138,615,66,569
+Coloration,1784,688
+Pterotic,903,689
+Ventral Ethmoid,connected_to,Mesethmoid,776,694,789,641,803,588
+Anguloarticular,connected_to,Quadrate,265,708,374,611,429,549
+Anguloarticular,connected_to,Dentary,265,708,226,632,172,563
+Prootic,connected_to,Exoccpital,1038,713,1059,767,1156,717
+Exoccpital,connected_to,Epioccipital,1156,717,1153,681,1151,645
+COracoid,connected_to,Scapula,1614,718,1614,686,1614,654
+Hypobranchial,connected_to,Ceratobranchial,1380,732,1378,679,1378,626
+Bands,1801,736
+Vomer,connected_to,Ventral Ethmoid,779,757,777,725,776,694
+Mesocoracoid,1614,778
+Retroarticular,connected_to,Anguloarticular,318,790,288,749,265,708
+Basioccipital,connected_to,Exoccpital,1156,808,1156,762,1156,717
+Parasphenoid,connected_to,Vomer,787,839,783,798,779,757
+Radials,1620,856
+Basibranchial,connected_to,Hypobranchial,1378,867,1376,805,1380,732
+subopercle,connected_to,Opercle,667,902,641,836,666,765
+Interopercle,connected_to,subopercle,426,906,536,881,667,902
+Interopercle,connected_to,Preopercle,426,906,478,825,476,765
+Pectoral fin rays,connected_to,Radials,1620,924,1620,890,1620,856

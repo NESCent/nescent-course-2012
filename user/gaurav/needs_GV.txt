@@ -1,0 +1,45 @@
+"Needs" by Gaurav Vaidya
+
+1. Next semester, I'm going to be doing a graduate fellowship at NESCent working
+on creating a database to link names across multiple taxonomic databases. The
+plan (so far) is to build a system which would have "clusters" of identical names,
+such as "Panthera tigris", "Panthera tigris (Linnaeus, 1758)", etc. I think building
+this system in a triplestore would be very useful: the triplestore would remember
+which relation was asserted by which database (e.g. "ITIS asserts that 'Panthera
+tigris (Linnaeus, 1758)' is identical to 'Panthera tigris'"), allowing questions
+like "What name does Zoobank use for the species ITIS refers to as 'Panthera tigris'?".
+It would also allow relationships to be compared between taxonomic databases 
+(e.g. which synonyms do ITIS and WoRMS disagree over?).
+
+The project is still very much in the early stages of planning, but I'd love your 
+thoughts on the challenges of implementing a system like this in OWL. I was thrilled 
+to discover that you can annotate annotations, which would be necessary to pull this 
+off, whether you think that OWL is the best place to do this (on the downside, a 
+simple relational database would be easier and faster to implement; however, I think 
+the inference engine would be a powerful way to track these relationships, and I think
+RDF would be an excellent format in which to distribute this database-of-databases once
+it has been created).
+
+2. This summer, I've been working with the Missouri Botanical Gardens to create a 
+metadata schema for Biodiversity Heritage Library (BHL) illustrations (see
+http://biodivlib.wikispaces.com/Art+of+Life for information about the project, and
+http://biodivlib.wikispaces.com/Art+of+Life+-+schema+work for details on the proposed
+schema). So far, we've been thinking about a very broad schema which acts like
+Darwin Core or Dublin Core in precisely defining a small set of terms. Would there be
+any advantages to using OWL to validate the schema? I don't think so: the sort of
+vocabularies we would like to use (such as the Getty Art and Architecture Thesaurus)
+are not freely available, and the W3C Ontology for Media Resources (see
+http://www.w3.org/TR/mediaont-10/) doesn't do much more than provide us with another
+set of defined terms. The most interesting part of the project -- linking into
+vocabularies of species names -- should probably be kept simple to start off with.
+What do you think? Is there something I'm missing?
+
+3. The Wikimedia Commons' categories (see 
+http://commons.wikimedia.org/wiki/Category:CommonsRoot) works exactly like classes 
+in OWL: any file or category can be inside any number of other categories. I don't 
+know if anybody's tried this, but it'd be interesting to put some of the higher-level 
+categories into OWL, and then to use a reasoner to work out where implied categories
+are missing (e.g. any image in the category "Boulder, Colorado" should also be in the
+categories "Denver area", "Colorado" and "USA"). There's no way I'll have time to
+work on this myself, but I could propose it to the Wikipedia community and see if
+anybody's interested. Do you think that would be worth doing?

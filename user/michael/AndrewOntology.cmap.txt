@@ -1,0 +1,14 @@
+Insect,447,39
+Anatomical Structure,part_of,Insect,461,124,454,88,447,39
+Head,is_a,Anatomical Structure,228,138,344,131,461,124
+Thorax,is_a,Anatomical Structure,458,195,461,165,461,124
+Abdomen,is_a,Anatomical Structure,671,203,566,163,461,124
+Rostrum,part_of,Head,163,249,188,201,228,138
+Wing,406,275
+Leg,579,277
+Anal Vein,part_of,Wing,263,325,334,294,406,275
+Tarsus,part_of,Leg,577,356,577,324,579,277
+Antenna,121,366
+Fore Wing,is_a,Wing,370,368,384,326,406,275
+Hind Wing,is_a,Wing,472,371,440,325,406,275
+Elytron,is_a,Fore Wing,364,450,365,413,370,368

@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ero/dev/swo-imports.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ero/dev/swo-imports.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swo="http://www.ebi.ac.uk/efo/swo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ero/dev/swo-imports.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001554"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000098"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200166"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000011 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALL/AML data set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000015 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000015">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-MS data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000051 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BED file</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000088 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHP file</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000110 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distance calculation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000116 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">text data set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000117 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000117">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">csv data set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000129 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000129">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digital gene expression (DGE) datasets</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000140 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000140">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FACS data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000156 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000156">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO data type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000157 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000157">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO Matrix Series file</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000233 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000233">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ILLUMINA data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000253 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000253">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LC-MS data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000270 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000270">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAQC data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000282 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000282">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutual information matrix (MIM)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000378 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000378">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBMLR file</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000399 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000399">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">html</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">html, or HyperText Markup Language in full, is a data format specification is a markup language for web pages and is the publishing language of the World Wide Web.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/TR/html401/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000406 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000406">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene list</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000408 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000408">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clustered data set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000409 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000409">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R data frame</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000467 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000467">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data annotation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000469 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000469">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annotation data packages</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000484 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000484">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bitmap object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000497 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000497">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chamber slide format</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000509 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000509">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database creation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An objective in which the aim is to create a new database instance.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: James Malone</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000511 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000511">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross validation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000553 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene expression analysis objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000554 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000554">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene expression dataset</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000575 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000575">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTML report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000580 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000580">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000620 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000620">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000624 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000624">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microarray data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000640 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000640">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMICS data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000655 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000655">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedigree data file</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000661 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000661">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">graph plot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000670 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000670">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qPCR data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/swo/SWO_0000724 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/swo/SWO_0000724">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data visualization objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
+<!--
+
+Notice: All the OBO ontologies have changed the term URI format from http://purl.org/obo/owl/ontology#ontology_nnnnnnn to http://purl.obolibrary.org/obo/ontology_nnnnnnn. Please make sure your input files are updated.
+
+The following terms do not have any related axioms in the source ontology:
+
+http://purl.obolibrary.org/obo/ERO_0001554
+http://purl.obolibrary.org/obo/OBI_0200166
+-->

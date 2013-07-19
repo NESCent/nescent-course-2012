@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/etienne.gnimpieba/ontologies/2012/7/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/etienne.gnimpieba/ontologies/2012/7/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/etienne.gnimpieba/ontologies/2012/7/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_08aa907e_58ca_4eda_97b7_d07557e27963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_08aa907e_58ca_4eda_97b7_d07557e27963">
+        <rdfs:label xml:lang="en">&apos;cell part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_95d14d15_e5ef_454c_ac56_2c672f3cfd6e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_1892d84e_27de_452b_ae26_813edeb76fb4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_1892d84e_27de_452b_ae26_813edeb76fb4">
+        <rdfs:label xml:lang="en">&apos;intracellular part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_08aa907e_58ca_4eda_97b7_d07557e27963"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OWLClass_7533ae41_68ef_4778_a049_9115b28e3bd6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_2a8a5e8c_d982_485a_ac7d_606fcbab16ae -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_2a8a5e8c_d982_485a_ac7d_606fcbab16ae">
+        <rdfs:label xml:lang="en">&apos;DNA replication termination region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_6ac376e3_9def_4cc4_8f83_a6d0d9db9b0e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_4e769100_a4e6_4506_b122_13605422eec3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_4e769100_a4e6_4506_b122_13605422eec3">
+        <rdfs:label xml:lang="en">chromocenter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_6ac376e3_9def_4cc4_8f83_a6d0d9db9b0e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_6ac376e3_9def_4cc4_8f83_a6d0d9db9b0e -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_6ac376e3_9def_4cc4_8f83_a6d0d9db9b0e">
+        <rdfs:label xml:lang="en">&apos;chromosomal part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_c641ad61_f1d1_4f2e_bb92_7405f3d3b3ea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_6f63076d_c7ae_4f4f_a9f7_1f5b4938be14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_6f63076d_c7ae_4f4f_a9f7_1f5b4938be14">
+        <rdfs:label xml:lang="en">&apos;chromosome, centromeric region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_6ac376e3_9def_4cc4_8f83_a6d0d9db9b0e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_7533ae41_68ef_4778_a049_9115b28e3bd6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_7533ae41_68ef_4778_a049_9115b28e3bd6">
+        <rdfs:label xml:lang="en">intracellular</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_08aa907e_58ca_4eda_97b7_d07557e27963"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_77aefdca_f823_478c_bbb7_fd3224c18512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_77aefdca_f823_478c_bbb7_fd3224c18512">
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_95d14d15_e5ef_454c_ac56_2c672f3cfd6e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_95d14d15_e5ef_454c_ac56_2c672f3cfd6e -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_95d14d15_e5ef_454c_ac56_2c672f3cfd6e">
+        <rdfs:label xml:lang="en">cellular_component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_b2dd1f28_176a_4060_a49e_ea547794b8a2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_b2dd1f28_176a_4060_a49e_ea547794b8a2">
+        <rdfs:label xml:lang="en">&apos;chromosome, telomeric region&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_6ac376e3_9def_4cc4_8f83_a6d0d9db9b0e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_b81e1711_48fd_4616_86cb_cac820c141b0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_b81e1711_48fd_4616_86cb_cac820c141b0">
+        <rdfs:label xml:lang="en">organelle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_95d14d15_e5ef_454c_ac56_2c672f3cfd6e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_bbbd615f_7202_402a_b120_e071942754c5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_bbbd615f_7202_402a_b120_e071942754c5">
+        <rdfs:label xml:lang="en">chromatin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_6ac376e3_9def_4cc4_8f83_a6d0d9db9b0e"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_c641ad61_f1d1_4f2e_bb92_7405f3d3b3ea -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_c641ad61_f1d1_4f2e_bb92_7405f3d3b3ea">
+        <rdfs:label xml:lang="en">&apos;intracellular organelle part&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_1892d84e_27de_452b_ae26_813edeb76fb4"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OWLClass_d9a9f43d_6ee5_47da_868d_ff3b392c5270"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_d9a9f43d_6ee5_47da_868d_ff3b392c5270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_d9a9f43d_6ee5_47da_868d_ff3b392c5270">
+        <rdfs:label xml:lang="en">&apos;intracellular organelle&apos;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_1892d84e_27de_452b_ae26_813edeb76fb4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_b81e1711_48fd_4616_86cb_cac820c141b0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLClass_f90e8c71_f7ba_47c8_8854_874f52440537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OWLClass_f90e8c71_f7ba_47c8_8854_874f52440537">
+        <rdfs:label xml:lang="en">chromosome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OWLClass_d9a9f43d_6ee5_47da_868d_ff3b392c5270"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_2a8a5e8c_d982_485a_ac7d_606fcbab16ae"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_4e769100_a4e6_4506_b122_13605422eec3"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_6f63076d_c7ae_4f4f_a9f7_1f5b4938be14"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_b2dd1f28_176a_4060_a49e_ea547794b8a2"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_bbbd615f_7202_402a_b120_e071942754c5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_08aa907e_58ca_4eda_97b7_d07557e27963"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_77aefdca_f823_478c_bbb7_fd3224c18512"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OWLClass_b81e1711_48fd_4616_86cb_cac820c141b0"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

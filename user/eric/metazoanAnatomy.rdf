@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="MacRoman"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vue.tufts.edu/ontology/vue.rdfs#"
+    xmlns:j.1="http://vue.tufts.edu/vue.rdfs#" > 
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a5785e0a0005b4016e0123f4f436a6">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>biomineralized structure</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578700a0005b4016e0123230d02f1">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>is_a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578660a0005b4016e0123f35ee144">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>radula primordia</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578680a0005b4016e01236e196eb7">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>calcified biomineralized structure</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578740a0005b4016e0123cd13a444">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>is_a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578620a0005b4016e012395a2d227">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>shell gland</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a5785c0a0005b4016e01238309ccc4">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>metazoan anatomy</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578770a0005b4016e0123f6aedf0e">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>develops_from</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578610a0005b4016e0123c845daf7">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>radula</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c">
+    <j.0:label>metazoanAnatomy.vue</j.0:label>
+    <j.0:author>000generic</j.0:author>
+    <j.0:id>0</j.0:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a5786b0a0005b4016e0123e052bcf8">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>part_of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578720a0005b4016e01236a5a7f44">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>is_a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578810a0005b4016e01232e1621e6">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>develops_from</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a5786a0a0005b4016e012351b129e7">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>calcium carbonate biomineralized structure</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a578750a0005b4016e0123bd21c326">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>is_a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/e2a5785f0a0005b4016e0123424b803f">
+    <j.1:none></j.1:none>
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/e2a578580a0005b4016e0123e1a1a69c"/>
+    <j.0:label>shell</j.0:label>
+  </rdf:Description>
+</rdf:RDF>

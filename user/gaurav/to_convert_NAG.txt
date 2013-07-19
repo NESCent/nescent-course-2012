@@ -1,0 +1,42 @@
+Chronological unit,1438,170
+Physical entity,787,250
+Period,is_a,Chronological unit,1434,294,1432,224,1438,170
+Paleoenvironment,is_a,Physical entity,708,399,747,324,787,250
+Cretaceous,is_a,Period,1420,430,1421,367,1434,294
+Marine,is_a,Paleoenvironment,568,502,638,450,708,399
+Mixed,is_a,Paleoenvironment,663,503,685,451,708,399
+Terrestrial,is_a,Paleoenvironment,773,505,740,452,708,399
+Maastrichtian,part_of,Cretaceous,2010,602,1541,548,1420,430
+Campanian,part_of,Cretaceous,1770,603,1457,547,1420,430
+Campanian,preceeds,Maastrichtian,1770,603,1874,603,2010,602
+Cenomanian,preceeds,Campanian,1589,603,1676,604,1770,603
+Albian,part_of,Cretaceous,1426,603,1393,546,1420,430
+Albian,preceeds,Cenomanian,1426,603,1494,603,1589,603
+Aptian,preceeds,Albian,1284,604,1346,603,1426,603
+Aptian,part_of,Cretaceous,1284,604,1331,547,1420,430
+Eolian,develops_from,Terrestrial,744,663,807,583,773,505
+Continental shelf,develops_from,Marine,500,664,534,583,568,502
+Marginal marine,develops_from,Mixed,635,665,649,584,663,503
+Fluvial,develops_from,Terrestrial,884,666,932,585,773,505
+Hell Creek,formed_during,Maastrichtian,2095,966,1932,718,2010,602
+Hell Creek,is_a,Formation,2095,966,1587,1217,1080,1469
+Formation,is_a,Physical entity,1080,1469,88,495,787,250
+Hell Creek,records,Fluvial,2095,966,821,1331,884,666
+Judith River,formed_during,Campanian,1977,966,1753,718,1770,603
+Judith River,is_a,Formation,1977,966,1528,1217,1080,1469
+Judith River,records,Fluvial,1977,966,1004,1084,884,666
+Baharyia,formed_during,Cenomanian,1752,970,1670,786,1589,603
+Baharyia,is_a,Formation,1752,970,1416,1219,1080,1469
+Baharyia,records,Marginal marine,1752,970,1011,1153,635,665
+Cedar Mountain,records,Fluvial,1454,974,1169,820,884,666
+Cedar Mountain,formed_during,Albian,1454,974,1438,662,1426,603
+Cedar Mountain,is_a,Formation,1454,974,1267,1221,1080,1469
+Cedar Mountain,formed during,Cenomanian,1454,974,1508,683,1589,603
+Echkar Formation,is_a,Formation,1602,974,1341,1221,1080,1469
+Echkar Formation,records,Fluvial,1602,974,1243,820,884,666
+Echkar Formation,formed_during,Cenomanian,1602,974,1594,662,1589,603
+Cloverly,formed_during,Albian,1288,1000,1356,751,1426,603
+Cloverly,is_a,Formation,1288,1000,1184,1234,1080,1469
+Cloverly,formed_during,Aptian,1288,1000,1281,723,1284,604
+Cloverly,formed_during,Cenomanian,1288,1000,1367,950,1589,603
+Cloverly,records,Fluvial,1288,1000,1086,833,884,666

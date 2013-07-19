@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1343835734496" name="http://purl.obolibrary.org/obo/owl-tutorial/ao-workshop.owl" uri="owl_tutorial.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343835734496" name="http://purl.org/obo/owl/human-dev-anat-abstract" uri="human-dev-anat-abstract.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343835734496" name="http://purl.org/obo/owl/human-dev-anat-staged" uri="human-dev-anat-staged.owl"/>
+    </group>
+</catalog>

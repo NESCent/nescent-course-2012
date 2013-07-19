@@ -1,0 +1,966 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.owl#"
+     xml:base="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:to_convert_emmanuel="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:OBO_REL="http://purl.obolibrary.org/obo/OBO_REL#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.owl">
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01:08:2012 11:48</oboInOwl:date>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBO_REL#_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBO_REL#_part_of">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_REL:part_of</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO_REL:part_of</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected_to</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected_to</oboInOwl:id>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical Structure</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:0</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axial skeleton</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:1</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oral Jaws</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:10</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_11">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suspensorium</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:11</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_12">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claustrum</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:12</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_13 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_13">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rib</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:13</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_14 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_14">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Posttemporal</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:14</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_15 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_15">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemal Spine</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:15</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_16">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngobranchial</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:16</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_17 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_17">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intercalarium</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:17</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_18 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_18">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontal</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:18</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_19 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_19">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upper Jaws</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:19</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weberian appartus</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:2</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_20 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_20">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endopterygoid</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:20</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_21 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_21">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lower Jaws</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:21</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_22 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_22">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metapterygoid</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_20"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:22</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_23 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neural spine</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:23</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_24 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_24">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tripus</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:24</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_25 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_25">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supracleithrum</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:25</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_26 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_26">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epibranchial</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:26</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_27 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_27">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parietal</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_18"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:27</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_28 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_28">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supraoccipital</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_27"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:28</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_29 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_29">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyomandibula</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_30"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:29</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postcranial skeleton</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:3</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_30 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_30">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preopercle</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_31"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:30</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_31 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_31">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opercle</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:31</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_32 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_32">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quadrate</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_20"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_30"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:32</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_33 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_33">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dentary</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_34"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:33</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_34 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_34">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dentary teeth</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:34</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_35 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_35">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premaxila</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_19"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:35</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_36 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_36">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Branchiostegal rays</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_37"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:36</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_37 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_37">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobranchial</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_26"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:37</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_38 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_38">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesethmoid</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_18"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:38</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_39 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_39">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scale</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:39</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cranial skeleton</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMM_0"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:4</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_40 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_40">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleithrum</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_25"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:40</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_41 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_41">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sphenotic</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:41</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_42 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_42">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symplectic</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_30"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_29"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:42</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_43 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_43">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epioccipital</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:43</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_44 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_44">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pigmentation</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:44</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_45 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_45">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scapula</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:45</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_46 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_46">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maxilla</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_35"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:46</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_47 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_47">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coloration</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:47</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_48 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_48">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pterotic</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:48</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_49 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_49">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ventral Ethmoid</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_38"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:49</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appendicular skeleton</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:5</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_50 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_50">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anguloarticular</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_33"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:50</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_51 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_51">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prootic</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:51</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_52 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_52">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exoccpital</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_43"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:52</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_53 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_53">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COracoid</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_45"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:53</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_54 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_54">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypobranchial</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_37"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:54</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_55 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_55">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bands</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:55</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_56 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_56">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomer</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_49"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:56</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_57 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_57">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mesocoracoid</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:57</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_58 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_58">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retroarticular</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_50"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:58</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_59 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_59">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basioccipital</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:59</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scaphium</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:6</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_60 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_60">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parasphenoid</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_56"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:60</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_61 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_61">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radials</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:61</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_62 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_62">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basibranchial</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_54"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:62</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_63 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_63">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subopercle</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_31"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:63</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_64 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_64">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interopercle</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_63"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_30"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:64</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_65 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_65">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pectoral fin rays</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/file:/Users/haendel/Documents/SVN/AnatomyCourse/user/emmanuel/to_convert_emmanuel.obo#connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_61"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:65</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vetebrates</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:7</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Branchial Basket</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:8</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMM_9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMM_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurocranium</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBO_REL#_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMM_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMM:9</oboInOwl:id>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.0-SNAPSHOT) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,10 @@
+pars reflexa subdivision of masseter,part_of,superficial subdivision of masseter,1007,40,977,79,947,127
+superficial subdivision of masseter,part_of,masseter,947,127,809,191,730,254
+masseter,is_a,muscle,730,254,675,295,856,534
+anterior subdivision of masseter,part_of,masseter,708,85,711,190,730,254
+deep masseter subdivision of masseter,part_of,masseter,466,129,613,215,730,254
+posterior masseter,part_of,masseter,962,205,846,229,730,254
+zygomaticomandibularis,part_of,masseter,412,228,571,241,730,254
+deep temporalis,part_of,temporalis,495,301,502,339,510,381
+temporalis,is_a,muscle,510,381,630,448,856,534
+superficial temporalis,part_of,temporalis,346,323,428,352,510,381

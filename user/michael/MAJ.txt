@@ -1,0 +1,2 @@
+Creating an anatomy ontology similar to HAO but for beetles, and in particular for weevils.
+Currently, this ontology is on the MX platform.

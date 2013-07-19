@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/CARO.owl" uri="caro_2_no_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/CARO_bridge.owl" uri="caro_2/CARO_bridge.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/bfo.owl" uri="caro_2/external/BFO2/bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/caro/dev/CL_import.owl" uri="caro_2/imports/CL_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/caro/dev/GO_imports.owl" uri="caro_2/imports/GO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl" uri="caro_2/imports/NCBItaxon_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/caro/dev/PATO_import.owl" uri="caro_2/imports/PATO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/caro/dev/PCO_imports.owl" uri="caro_2/imports/PCO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="caro_2/imports/ontology-metadata.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/ro.owl" uri="caro_2/imports/ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="http://purl.obolibrary.org/obo/ro_imports.owl" uri="caro_2/imports/ro_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343913676319" name="shadowed:http://purl.obolibrary.org/obo/CARO.owl" uri="caro_2/caro_2.owl"/>
+    </group>
+</catalog>

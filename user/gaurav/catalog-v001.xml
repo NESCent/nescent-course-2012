@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="file:/Users/haendel/Documents/SVN/AnatomyCourse/user/gaurav/to_convert_NAG.owl" uri="to_convert_NAG.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="http://ontofox.hegroup.org/exc2d7ra.owl" uri="homo_sapiens_annotations.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="http://ontofox.hegroup.org/f26irypp.owl" uri="homo_sapiens_hierarchy.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="http://ontofox.hegroup.org/foeiayy0.owl" uri="homo_sapiens_simple.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="http://ontofox.hegroup.org/iv2vgu47.owl" uri="annotations.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="http://ontofox.hegroup.org/t23nka5y.owl" uri="organ_growth.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="http://purl.obolibrary.org/obo/CARO.owl" uri="caro2_new_imports_GGV.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/go.owl" uri="ggv-wed-owl-basic-restriction.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/go.owl" uri="wed-1-owl-tutorial-basic-classification.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/go.owl" uri="wed-1-owl-tutorial-basic-disjoint.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/go.owl" uri="wed-1-owl-tutorial-basic-dl-query.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="http://purl.obolibrary.org/obo/owl-tutorial/ao-workshop.owl" uri="wed-1-owl-tutorial.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="ggv-wed-owl-cellcomp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="GGV.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="wed-1-owl-tutorial-basic-subclass.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343931792300" name="duplicate:http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="wed-owl-cellcomp.owl"/>
+    </group>
+</catalog>

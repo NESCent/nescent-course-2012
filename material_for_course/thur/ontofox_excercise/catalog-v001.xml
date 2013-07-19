@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/anatomy_course/external/GO-imports.owl" uri="Solution/GO-imports.xml"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1343144916477" name="http://ontofox.hegroup.org/r7yjpyxh.owl" uri="imports/clo_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343144916477" name="http://purl.obolibrary.org/obo/bfo.owl" uri="external/BFO2/bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343144916477" name="http://purl.obolibrary.org/obo/course/empty_bfo.owl" uri="empty_bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343144916477" name="http://purl.obolibrary.org/obo/test_course/external/CARO_import.owl" uri="Solution/CARO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1343144916477" name="shadowed:http://purl.obolibrary.org/obo/course/empty_bfo.owl" uri="Solution/emtpy_bfo.owl"/>
+    </group>
+</catalog>

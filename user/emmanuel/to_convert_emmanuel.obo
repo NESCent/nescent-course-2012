@@ -1,0 +1,323 @@
+format-version: 1.2
+date: 01:08:2012 11:48
+
+[Term]
+id: EMM:0
+name: Anatomical Structure
+
+[Term]
+id: EMM:1
+name: Axial skeleton
+
+[Term]
+id: EMM:10
+name: Oral Jaws
+relationship: OBO_REL:part_of EMM:4 ! cranial skeleton
+
+[Term]
+id: EMM:11
+name: Suspensorium
+relationship: OBO_REL:part_of EMM:4 ! cranial skeleton
+
+[Term]
+id: EMM:12
+name: Claustrum
+
+[Term]
+id: EMM:13
+name: Rib
+
+[Term]
+id: EMM:14
+name: Posttemporal
+
+[Term]
+id: EMM:15
+name: Hemal Spine
+
+[Term]
+id: EMM:16
+name: pharyngobranchial
+relationship: OBO_REL:part_of EMM:8 ! Branchial Basket
+
+[Term]
+id: EMM:17
+name: Intercalarium
+
+[Term]
+id: EMM:18
+name: Frontal
+relationship: OBO_REL:part_of EMM:9 ! Neurocranium
+
+[Term]
+id: EMM:19
+name: Upper Jaws
+relationship: OBO_REL:part_of EMM:10 ! Oral Jaws
+
+[Term]
+id: EMM:2
+name: Weberian appartus
+
+[Term]
+id: EMM:20
+name: Endopterygoid
+relationship: OBO_REL:part_of EMM:11 ! Suspensorium
+
+[Term]
+id: EMM:21
+name: Lower Jaws
+relationship: OBO_REL:part_of EMM:10 ! Oral Jaws
+
+[Term]
+id: EMM:22
+name: Metapterygoid
+relationship: connected_to EMM:20 ! Endopterygoid
+
+[Term]
+id: EMM:23
+name: Neural spine
+
+[Term]
+id: EMM:24
+name: Tripus
+
+[Term]
+id: EMM:25
+name: Supracleithrum
+relationship: connected_to EMM:14 ! Posttemporal
+
+[Term]
+id: EMM:26
+name: Epibranchial
+relationship: connected_to EMM:16 ! pharyngobranchial
+
+[Term]
+id: EMM:27
+name: Parietal
+relationship: connected_to EMM:18 ! Frontal
+
+[Term]
+id: EMM:28
+name: Supraoccipital
+relationship: connected_to EMM:27 ! Parietal
+
+[Term]
+id: EMM:29
+name: Hyomandibula
+relationship: connected_to EMM:22 ! Metapterygoid
+relationship: connected_to EMM:30 ! Preopercle
+
+[Term]
+id: EMM:3
+name: Postcranial skeleton
+
+[Term]
+id: EMM:30
+name: Preopercle
+relationship: connected_to EMM:31 ! Opercle
+
+[Term]
+id: EMM:31
+name: Opercle
+
+[Term]
+id: EMM:32
+name: Quadrate
+relationship: connected_to EMM:20 ! Endopterygoid
+relationship: connected_to EMM:30 ! Preopercle
+
+[Term]
+id: EMM:33
+name: Dentary
+relationship: connected_to EMM:34 ! Dentary teeth
+relationship: OBO_REL:part_of EMM:21 ! Lower Jaws
+
+[Term]
+id: EMM:34
+name: Dentary teeth
+
+[Term]
+id: EMM:35
+name: Premaxila
+relationship: OBO_REL:part_of EMM:19 ! Upper Jaws
+
+[Term]
+id: EMM:36
+name: Branchiostegal rays
+relationship: connected_to EMM:37 ! Ceratobranchial
+
+[Term]
+id: EMM:37
+name: Ceratobranchial
+relationship: connected_to EMM:26 ! Epibranchial
+
+[Term]
+id: EMM:38
+name: Mesethmoid
+relationship: connected_to EMM:18 ! Frontal
+
+[Term]
+id: EMM:39
+name: Scale
+
+[Term]
+id: EMM:4
+name: cranial skeleton
+is_a: EMM:0 ! Anatomical Structure
+
+[Term]
+id: EMM:40
+name: Cleithrum
+relationship: connected_to EMM:25 ! Supracleithrum
+
+[Term]
+id: EMM:41
+name: Sphenotic
+
+[Term]
+id: EMM:42
+name: Symplectic
+relationship: connected_to EMM:29 ! Hyomandibula
+relationship: connected_to EMM:30 ! Preopercle
+relationship: connected_to EMM:32 ! Quadrate
+
+[Term]
+id: EMM:43
+name: Epioccipital
+relationship: connected_to EMM:28 ! Supraoccipital
+
+[Term]
+id: EMM:44
+name: Pigmentation
+
+[Term]
+id: EMM:45
+name: Scapula
+
+[Term]
+id: EMM:46
+name: Maxilla
+relationship: connected_to EMM:35 ! Premaxila
+
+[Term]
+id: EMM:47
+name: Coloration
+
+[Term]
+id: EMM:48
+name: Pterotic
+
+[Term]
+id: EMM:49
+name: Ventral Ethmoid
+relationship: connected_to EMM:38 ! Mesethmoid
+
+[Term]
+id: EMM:5
+name: appendicular skeleton
+
+[Term]
+id: EMM:50
+name: Anguloarticular
+relationship: connected_to EMM:32 ! Quadrate
+relationship: connected_to EMM:33 ! Dentary
+
+[Term]
+id: EMM:51
+name: Prootic
+relationship: connected_to EMM:52 ! Exoccpital
+
+[Term]
+id: EMM:52
+name: Exoccpital
+relationship: connected_to EMM:43 ! Epioccipital
+
+[Term]
+id: EMM:53
+name: COracoid
+relationship: connected_to EMM:45 ! Scapula
+
+[Term]
+id: EMM:54
+name: Hypobranchial
+relationship: connected_to EMM:37 ! Ceratobranchial
+
+[Term]
+id: EMM:55
+name: Bands
+
+[Term]
+id: EMM:56
+name: Vomer
+relationship: connected_to EMM:49 ! Ventral Ethmoid
+
+[Term]
+id: EMM:57
+name: Mesocoracoid
+
+[Term]
+id: EMM:58
+name: Retroarticular
+relationship: connected_to EMM:50 ! Anguloarticular
+
+[Term]
+id: EMM:59
+name: Basioccipital
+relationship: connected_to EMM:52 ! Exoccpital
+
+[Term]
+id: EMM:6
+name: Scaphium
+
+[Term]
+id: EMM:60
+name: Parasphenoid
+relationship: connected_to EMM:56 ! Vomer
+
+[Term]
+id: EMM:61
+name: Radials
+
+[Term]
+id: EMM:62
+name: Basibranchial
+relationship: connected_to EMM:54 ! Hypobranchial
+
+[Term]
+id: EMM:63
+name: subopercle
+relationship: connected_to EMM:31 ! Opercle
+
+[Term]
+id: EMM:64
+name: Interopercle
+relationship: connected_to EMM:30 ! Preopercle
+relationship: connected_to EMM:63 ! subopercle
+
+[Term]
+id: EMM:65
+name: Pectoral fin rays
+relationship: connected_to EMM:61 ! Radials
+
+[Term]
+id: EMM:7
+name: Vetebrates
+
+[Term]
+id: EMM:8
+name: Branchial Basket
+relationship: OBO_REL:part_of EMM:4 ! cranial skeleton
+
+[Term]
+id: EMM:9
+name: Neurocranium
+relationship: OBO_REL:part_of EMM:4 ! cranial skeleton
+
+[Typedef]
+id: connected_to
+name: connected_to
+
+[Typedef]
+id: OBO_REL:part_of
+name: OBO_REL:part_of
+

@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/anatomy_course/external/CARO_imports.owl
+
+[Source ontology]
+CARO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CARO_0000013 #cell (CARO)
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CARO_0000013 #cell (CARO)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties

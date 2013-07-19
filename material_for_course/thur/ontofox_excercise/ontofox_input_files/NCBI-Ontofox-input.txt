@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/anatomy_course/external/NCBITaxon-imports.owl
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_5774 #Amoeba (NCBITaxon)
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_5774 #Amoeba (NCBITaxon)
+subClassOf http://purl.obolibrary.org/obo/CARO_0000064
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
