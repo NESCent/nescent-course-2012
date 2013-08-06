@@ -19,7 +19,6 @@ Instructions:
 # Inspect the catalog file with a text editor
 	* What do you notice? Are the .owl files referenced with absolute or relative paths?
 
-
 #Add the Information Artifact Ontology by importing it from the web:
 	* the IRI of the ontology is the following: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
 
